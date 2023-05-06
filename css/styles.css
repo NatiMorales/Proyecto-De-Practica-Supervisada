@@ -1,0 +1,153 @@
+/*nav*/
+
+.fondoAzul{
+    background-color: #011538;
+}
+
+
+/*baner*/
+.fondoBaner{
+    background-image: url(../imagenes/baner/baner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px 0px;
+    object-fit: contain;
+    width: 100%;
+    height: 250px;
+    
+}
+
+.posicionTitulo{
+    width: 75%;
+}
+
+/*cards */
+
+.fondoBlanco{
+    background-color: #ffffff;
+}
+
+.bordeAzul{
+    border-color: #011538;
+}
+
+.letraAzul{
+    color: #011538;
+}
+
+.tamanioLetra{
+    font-size: 8px;
+}
+
+.paddingImgCard{
+    padding: 8px;
+}
+
+.paddingTituloCard{
+    padding: 0px 0px 4px 0px;
+}
+
+/*quienes somos*/
+
+
+@media(min-width: 900px){
+    /*baner*/
+    .fondoBaner{
+        background-image: url(../imagenes/baner/baner.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 0px -270px;
+        object-fit: contain;
+        width: 100%;
+        height: 500px;
+        
+    } 
+
+    .posicionTitulo{
+        width: 25%;
+    }
+
+    /*cards*/
+
+    .paddingImgCard{
+        padding: 16px;
+    }
+
+    .paddingTituloCard{
+        padding: 0px 8px 8px 8px;
+    }
+
+    .tamanioLetra{
+        font-size: 12px;
+    }
+
+    /*quienes somos*/
+}
+
+@media(min-width: 600px) and (max-width: 899px){
+    /*baner*/
+    .fondoBaner{
+        background-image: url(../imagenes/baner/baner.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 0px -70px;
+        object-fit:contain;
+        width: 100%;
+        height: 400px;
+        
+    } 
+
+    .posicionTitulo{
+        width: 50%;
+    }
+
+    /*cards*/
+
+    .paddingImgCard{
+        padding: 16px;
+    }
+
+    .paddingTituloCard{
+        padding: 0px 8px 8px 8px;
+    }
+
+    .tamanioLetra{
+        font-size: 12px;
+    }
+
+    /*quienes somos*/
+}
+
+@media(min-width:400px) and (max-width:600px){
+
+    .fondoBaner{
+        background-image: url(../imagenes/baner/baner.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 0px -30px;
+        object-fit:contain;
+        width: 100%;
+        height: 300px;
+        
+    } 
+
+    .posicionTitulo{
+        width: 50%;
+    }
+
+    /*cards*/
+
+    .paddingImgCard{
+        padding: 16px;
+    }
+
+
+    .tamanioLetra{
+        font-size: 12px;
+    }
+
+    /*quienes somos*/
+    
+}
+
+
