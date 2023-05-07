@@ -1,12 +1,12 @@
 /*nav*/
 
-.fondoAzul{
+.fondoAzul {
     background-color: #011538;
 }
 
 
 /*baner*/
-.fondoBaner{
+.fondoBaner {
     background-image: url(../imagenes/baner/baner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -14,140 +14,261 @@
     object-fit: contain;
     width: 100%;
     height: 250px;
-    
+
 }
 
-.posicionTitulo{
+.posicionTitulo {
     width: 75%;
 }
 
 /*cards */
 
-.fondoBlanco{
+.fondoBlanco {
     background-color: #ffffff;
 }
 
-.bordeAzul{
+.bordeAzul {
     border-color: #011538;
 }
 
-.letraAzul{
+.letraAzul {
     color: #011538;
 }
 
-.tamanioLetra{
+.tamanioLetraCard {
     font-size: 8px;
 }
 
-.paddingImgCard{
+.paddingCards {
     padding: 8px;
 }
 
-.paddingTituloCard{
+.paddingImgCard {
+    padding: 8px;
+}
+
+.paddingTituloCard {
     padding: 0px 0px 4px 0px;
 }
 
 /*quienes somos*/
 
+.fondoQuienesSomos {
+    background-image: url(../imagenes/quienes-somos/quienes-somos.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: contain;
+}
 
-@media(min-width: 900px){
+.espacioParrafo {
+    padding: 20px 20px;
+    margin: 0px;
+}
+
+.tamanioLetraQS {
+    font-size: 14px;
+}
+
+/* mision vision valores objetivos*/
+
+.imgMVVO {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    object-position: -20px 0px;
+}
+
+.tamanioLetraMVVO {
+    font-size: 12px;
+}
+
+.paddingMVVO {
+    padding: 5px 10px;
+}
+
+/* footer */
+
+/* .listaMenu{
+    column-count: 2;
+} */
+
+
+@media(min-width: 900px) {
+
     /*baner*/
-    .fondoBaner{
+    .fondoBaner {
         background-image: url(../imagenes/baner/baner.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: 0px -270px;
         object-fit: contain;
         width: 100%;
-        height: 500px;
-        
-    } 
+        height: 500px
+    }
 
-    .posicionTitulo{
+    .posicionTitulo {
         width: 25%;
     }
 
     /*cards*/
 
-    .paddingImgCard{
+    .paddingCards {
+        padding: 60px 8px;
+    }
+
+    .paddingImgCard {
         padding: 16px;
     }
 
-    .paddingTituloCard{
+    .paddingTituloCard {
         padding: 0px 8px 8px 8px;
     }
 
-    .tamanioLetra{
+    .tamanioLetraCard {
         font-size: 12px;
     }
 
     /*quienes somos*/
+
+    .espacioParrafo {
+        padding: 20px 20%;
+        margin: 0px;
+    }
+
+    .tamanioLetraQS {
+        font-size: 20px;
+    }
+
+    /* mision vision valores objetivos*/
+
+    .imgMVVO {
+        width: 100%;
+        height: 250px;
+        object-fit: cover;
+        object-position: 0px -70px;
+    }
+
+    .tamanioLetraMVVO {
+        font-size: 17px;
+    }
+
+    .paddingMVVO {
+        padding: 16px 8px;
+    }
+
+    /* footer */
+
+    .listaMenu {
+        column-count: 2;
+    }
+
 }
 
-@media(min-width: 600px) and (max-width: 899px){
+@media(min-width: 600px) and (max-width: 899px) {
+
     /*baner*/
-    .fondoBaner{
+    .fondoBaner {
         background-image: url(../imagenes/baner/baner.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: 0px -70px;
-        object-fit:contain;
+        object-fit: contain;
         width: 100%;
         height: 400px;
-        
-    } 
 
-    .posicionTitulo{
+    }
+
+    .posicionTitulo {
         width: 50%;
     }
 
     /*cards*/
+    .paddingCards {
+        padding: 30px 8px;
+    }
 
-    .paddingImgCard{
+    .paddingImgCard {
         padding: 16px;
     }
 
-    .paddingTituloCard{
+    .paddingTituloCard {
         padding: 0px 8px 8px 8px;
     }
 
-    .tamanioLetra{
+    .tamanioLetraCard {
         font-size: 12px;
     }
 
     /*quienes somos*/
+
+    .tamanioLetraQS {
+        font-size: 18px;
+    }
+
+    /* mision vision valores objetivos*/
+
+    .imgMVVO {
+        width: 100%;
+        height: 250px;
+        object-fit: cover;
+        object-position: 0px -70px;
+    }
+
+    .tamanioLetraMVVO {
+        font-size: 16px;
+    }
+
+    /* footer */
+
+    .listaMenu {
+        column-count: 2;
+    }
 }
 
-@media(min-width:400px) and (max-width:600px){
+@media(min-width:400px) and (max-width:600px) {
 
-    .fondoBaner{
+    .fondoBaner {
         background-image: url(../imagenes/baner/baner.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: 0px -30px;
-        object-fit:contain;
+        object-fit: contain;
         width: 100%;
         height: 300px;
-        
-    } 
 
-    .posicionTitulo{
+    }
+
+    .posicionTitulo {
         width: 50%;
     }
 
     /*cards*/
 
-    .paddingImgCard{
+    .paddingImgCard {
         padding: 16px;
     }
 
 
-    .tamanioLetra{
+    .tamanioLetraCard {
         font-size: 12px;
     }
 
     /*quienes somos*/
-    
+
+    .tamanioLetraQS {
+        font-size: 16px;
+    }
+
+    /* mision vision valores objetivos*/
+
+    .imgMVVO {
+        width: 100%;
+        height: 250px;
+        object-fit: cover;
+        object-position: 0px -70px;
+    }
+
+    .tamanioLetraMVVO {
+        font-size: 14px;
+    }
 }
-
-
