@@ -125,6 +125,17 @@ main{
     background-color: #989DAF;
 }
 
+.letraSubcomisiones{
+    font-size: 10px;
+}
+
+.imgObjetivosComisiones{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    object-position: 0px 0px;
+}
+
 /*pagina fundadoras*/
 /*iconos*/
 
@@ -203,6 +214,14 @@ main{
         column-count: 2;
     }
 
+    /*pagina vinculacion, comunicacion, administracion y mentoria y formacion*/
+    /*Baner comision*/
+    
+
+    .letraSubcomisiones{
+        font-size: 20px;
+    }
+
 }
 
 @media(min-width: 600px) and (max-width: 899px) {
@@ -264,6 +283,21 @@ main{
     .listaMenu {
         column-count: 2;
     }
+
+    /*pagina vinculacion, comunicacion, administracion y mentoria y formacion*/
+    /*Baner comision*/
+    
+
+    .letraSubcomisiones{
+        font-size: 14px;
+    }
+
+    .imgObjetivosComisiones{
+        width: 100%;
+        height: 180px;
+        object-fit: cover;
+        object-position: 0px -40px;
+    }
 }
 
 @media(min-width:400px) and (max-width:600px) {
@@ -312,4 +346,20 @@ main{
     .tamanioLetraMVVO {
         font-size: 14px;
     }
+
+    /*pagina vinculacion, comunicacion, administracion y mentoria y formacion*/
+    /*Baner comision*/
+    
+
+    .letraSubcomisiones{
+        font-size: 14px;
+    }
+
+    .imgObjetivosComisiones{
+        width: 100%;
+        height: 250px;
+        object-fit: cover;
+        object-position: 0px -40px;
+    }
+    
 }
