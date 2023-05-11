@@ -1,7 +1,23 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    flex-grow: 1;
+}
+
+/* pagina inicial */
 /*nav*/
 
 .fondoAzul {
     background-color: #011538;
+}
+
+.letraBlancaEnlace{
+    color: #ffffff;
+    text-decoration: none;
 }
 
 
@@ -91,6 +107,31 @@
 /* .listaMenu{
     column-count: 2;
 } */
+
+
+/*pagina vinculacion, comunicacion, administracion y mentoria y formacion*/
+/*Baner comision*/
+.fondoBanerComision{
+    background-image: url(../imagenes/quienes-somos/quienes-somos.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px 0px;
+    object-fit: contain;
+    width: 100%;
+    height: 250px;
+}
+
+.fondoGris{
+    background-color: #989DAF;
+}
+
+/*pagina fundadoras*/
+/*iconos*/
+
+.tamanioIcono{
+    width: 50px;
+    height: 50px;
+}
 
 
 @media(min-width: 900px) {
