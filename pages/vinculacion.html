@@ -12,50 +12,103 @@
   <title>Practica Supervisada</title>
 </head>
 
-<body>
+<body class="">
   <header>
     <!-- Nav -->
-    <nav class="navbar navbar-expand-lg navbar-dark fondoAzul">
+    <nav class="navbar navbar-expand-lg fondoNav">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">PS</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <a class="navbar-brand" href="../index.html"><img src="../imagenes/logo/logo-color.jpeg" alt="logo"
+            class="tamanioLogoNav"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse text-uppercase fw-semibold" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
+        <div class="collapse navbar-collapse me-auto evitarDesbordeNav" id="main_nav">
+          <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link letraBlancaEnlace" aria-current="page" href="../index.html">inicio</a>
+              <a class="nav-link fw-semibold" href="../index.html">Inicio</a>
+            </li>
+            <li class="nav-item dropdown has-megamenu">
+              <a class="nav-link active dropdown-toggle fw-semibold" href="#" data-bs-toggle="dropdown">Comisiones</a>
+              <div class="dropdown-menu megamenu anchoMegaMenu" role="menu">
+                <div class="row g-3">
+                  <div class="col-lg-6 col-sm-7 px-1">
+                    <div class="col-megamenu">
+                      <h6 class="title"><a class="dropdown-item text-uppercase" href="vinculacion.html">vinculación</a>
+                      </h6>
+                      <ul class="list-unstyled">
+                        <li><a class="dropdown-item" href="#">Subcomisión de tematica de género, diversidad y
+                            discapcidad</a></li>
+                        <li><a class="dropdown-item" href="#">Subcomisión de emprendedurismo</a></li>
+                        <li><a class="dropdown-item" href="#">Subcomisión de vinculación con instituciones secundarias
+                            públicas y privadas</a></li>
+                        <li><a class="dropdown-item" href="#">Subcomisión de pasantías y patrocinadores</a></li>
+                        <li><a class="dropdown-item" href="#">Subcomisión de gestión de proyectos</a></li>
+                      </ul>
+                    </div> <!-- col-megamenu.// -->
+                  </div><!-- end col-3 -->
+                  <div class="col-lg-6 col-sm-7 px-1">
+                    <div class="col-megamenu">
+                      <h6 class="title"><a class="dropdown-item text-uppercase"
+                          href="../pages/comunicacion.html">comunicación</a></h6>
+                      <ul class="list-unstyled">
+                        <li><a class="dropdown-item" href="#">Subcomisión de comunicación y difución</a></li>
+                        <li><a class="dropdown-item" href="#">Subcomisión de organización de eventos</a></li>
+                        <li><a class="dropdown-item" href="#">Subcomisión de deporte y salud</a></li>
+                      </ul>
+                    </div> <!-- col-megamenu.// -->
+                  </div><!-- end col-3 -->
+                  <div class="col-lg-6 col-sm-7 px-1">
+                    <div class="col-megamenu">
+                      <h6 class="title"><a class="dropdown-item text-uppercase"
+                          href="../pages/administracion.html">administración</a></h6>
+                      <ul class="list-unstyled">
+                        <li><a class="dropdown-item" href="#">Subcomisión administrativa</a></li>
+                        <li><a class="dropdown-item" href="#">Subcomisión de asesoramiento legal</a></li>
+                      </ul>
+                    </div> <!-- col-megamenu.// -->
+                  </div>
+                  <div class="col-lg-6 col-sm-7 px-1">
+                    <div class="col-megamenu">
+                      <h6 class="title"><a class="dropdown-item text-uppercase"
+                          href="../pages/mentoreoYFormacion.html">mentoreo y formación</a></h6>
+                      <ul class="list-unstyled">
+                        <li><a class="dropdown-item" href="#">Subcomisión de mentoreo</a></li>
+                        <li><a class="dropdown-item" href="#">Subcomisión de capacitación</a></li>
+                        <li><a class="dropdown-item" href="#">Subcomisión de gabinete psicopedagogico</a></li>
+                      </ul>
+                    </div> <!-- col-megamenu.// -->
+                  </div><!-- end col-3 -->
+                </div><!-- end row -->
+              </div> <!-- dropdow --> <!-- dropdown-mega-menu.// -->
             </li>
             <li class="nav-item">
-              <a class="nav-link active letraBlancaEnlace" href="../pages/vinculacion.html">vinculación</a>
+              <a class="nav-link fw-semibold" href="../pages/fundadoras.html">Fundadoras</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link letraBlancaEnlace" href="../pages/comunicacion.html">comunicación</a>
+              <a class="nav-link fw-semibold" href="../pages/contactos.html">Contactos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link letraBlancaEnlace" href="../pages/administracion.html">administración</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link letraBlancaEnlace" href="../pages/mentoreoYFormacion.html">mentoreo y formación</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link letraBlancaEnlace" href="../pages/fundadoras.html">fundadoras</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link letraBlancaEnlace" href="../pages/contactos.html">contactos</a>
+              <a class="nav-link fw-semibold" href="../pages/novedades.html">Novedades</a>
             </li>
           </ul>
-        </div>
-      </div>
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link fw-semibold" href="../pages/iniciarSesion.html">Iniciar Sesion</a>
+            </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link fw-semibold" href="../pages/registro.html">Registrarse</a>
+            </li> -->
+          </ul>
+        </div> <!-- navbar-collapse.// -->
+      </div> <!-- container-fluid.// -->
     </nav>
 
   </header>
 
   <main>
     <!-- baner -->
-    <section>
-      <div class="d-flex align-items-center text-center fondoBanerComision letraAzul">
+    <section class="fondoBanerComision">
+      <div class="d-flex align-items-center text-center fondoColorTransparente">
         <h1 class="w-100">Vinculación</h1>
       </div>
     </section>
@@ -63,31 +116,36 @@
     <!-- subcomisiones -->
     <section>
       <div>
-        <ul class="list-unstyled text-white fondoGris p-4 m-3 p-sm-5 m-sm-5">
-          <li class="letraSubcomisiones">Tematica de género. Diversidad y discapcidad</li>
-          <li class="letraSubcomisiones">Comisión de emprendedurismo</li>
-          <li class="letraSubcomisiones">Comisión de vinculación con instituciones secundarias públicas y privadas</li>
-          <li class="letraSubcomisiones">Comisión de pasantías y patrocinadores</li>
-          <li class="letraSubcomisiones">Comisión de gestión de proyectos</li>
+        <ul class="list-unstyled p-4 p-sm-5 mb-0">
+          <li class="letraSubcomisiones fondoColorSubcomisiones my-2 my-sm-3 py-1 px-3 px-sm-5">Subcomisión de tematica de género.
+            Diversidad y discapcidad</li>
+          <li class="letraSubcomisiones fondoColorSubcomisiones my-2 my-sm-3 py-1 px-3 px-sm-5">Subcomisión de emprendedurismo</li>
+          <li class="letraSubcomisiones fondoColorSubcomisiones my-2 my-sm-3 py-1 px-3 px-sm-5">Subcomisión de vinculación con
+            instituciones secundarias públicas y privadas</li>
+          <li class="letraSubcomisiones fondoColorSubcomisiones my-2 my-sm-3 py-1 px-3 px-sm-5">Subcomisión de pasantías y
+            patrocinadores</li>
+          <li class="letraSubcomisiones fondoColorSubcomisiones my-2 my-sm-3 py-1 px-3 px-sm-5">Subcomisión de gestión de proyectos
+          </li>
         </ul>
       </div>
     </section>
 
     <!-- objetivos especificos -->
     <section>
-      <div class="card mb-3 border-0 mx-3 mx-sm-5 letraAzul">
-        <div class="row justify-content-center">
-          <div class="col-12 col-sm-12 col-md-4 ">
-            <img src="../imagenes/mision-vision-valores-objetivos/ejemplo.jpg" class="img-fluid imgObjetivosComisiones"
-              alt="objetivos-especificos">
-          </div>
-          <div class="col-12 col-sm-12 col-md-8 px-0 ">
-            <div class="card-body py-md-1">
+      <div class="card border-0 mx-5" id="vinculacionobjetivos">
+        <div class="row justify-content-center ">
+          <div class="col-12 col-md-10 px-0 ">
+            <div class="card-body py-md-1 shadow p-2 mb-3 p-lg-5 mb-lg-4 bg-body-tertiary rounded">
               <h5 class="card-title">Objetivos</h5>
-              <p class="card-text letraSubcomisiones">Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
-                printer took a galley of type and scrambled it to make a type specimen book. It has survived not only
-                five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+              <div class="card-text letraSubcomisiones">
+                <ul>
+                  <li class="mb-1"> Vincular la labor de Tecnológicas Conectadas - Red de Mujeres, con los
+                    sectores educativos, económicos, políticos, sociales y culturales, para contribuir al
+                    desarrollo integral de la mujer tecnológica, fomentando el desarrollo sostenible,
+                    fortaleciendo su rol y contribuyendo a la equidad de género y discapacidad.
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
@@ -97,31 +155,31 @@
   </main>
 
   <!-- footer -->
-  <footer class="fondoAzul text-white px-5 py-2 py-sm-4">
+  <footer class="fondoFooter px-5 py-2 py-sm-4 text-white">
     <section class="container">
       <div class="row">
-        <div class="col-10 col-sm-3 ">
-          <img src="../imagenes/quienes-somos/quienes-somos.jpg" class="w-50 h-50" alt="">
+        <div class="col-10 col-sm-3 py-2 px-0">
+          <img src="../imagenes/logo/logo3.png" class="tamanioLogoFooter" alt="logo">
         </div>
-        <div class="col-10 col-sm-6">
+        <div class="col-10 col-sm-6 px-4 py-2">
           <h4 class="text-uppercase">menu</h4>
-          <ul class="listaMenu list-unstyled">
-            <li><a href="../index.html" class="letraBlancaEnlace">Inicio</a></li>
-            <li><a href="../pages/vinculacion.html" class="letraBlancaEnlace">Vinculación</a></li>
-            <li><a href="../pages/comunicacion.html" class="letraBlancaEnlace">Comunicación</a></li>
-            <li><a href="../pages/administracion.html" class="letraBlancaEnlace">Administración</a></li>
-            <li><a href="../pages/mentoreoYFormacion.html" class="letraBlancaEnlace">Mentoreo y formación</a></li>
-            <li><a href="../pages/fundadoras.html" class="letraBlancaEnlace">Fundadoras</a></li>
-            <li><a href="../pages/contactos.html" class="letraBlancaEnlace">Contactos</a></li>
+          <ul class="listaDoble list-unstyled">
+            <li><a href="../index.html" class="letraEnlace">Inicio</a></li>
+            <li><a href="vinculacion.html" class="letraEnlace">Vinculación</a></li>
+            <li><a href="../pages/comunicacion.html" class="letraEnlace">Comunicación</a></li>
+            <li><a href="../pages/administracion.html" class="letraEnlace">Administración</a></li>
+            <li><a href="../pages/mentoreoYFormacion.html" class="letraEnlace">Mentoreo y formación</a></li>
+            <li><a href="../pages/fundadoras.html" class="letraEnlace">Fundadoras</a></li>
+            <li><a href="../pages/contactos.html" class="letraEnlace">Contactos</a></li>
+            <li><a href="../pages/fotos.html" class="letraEnlace">Fotos</a></li>
           </ul>
         </div>
-        <div class="col-10 col-sm-3">
+        <div class="col-10 col-sm-3 px-4 py-2">
           <h4 class="text-uppercase">redes</h4>
-          <ul class="list-unstyled">
-            <li><a href="#" class="letraBlancaEnlace">1</a></li>
-            <li><a href="#" class="letraBlancaEnlace">2</a></li>
-            <li><a href="#" class="letraBlancaEnlace">3</a></li>
-            <li><a href="#" class="letraBlancaEnlace">4</a></li>
+          <ul class="list-group list-group-horizontal list-unstyled ">
+            <li class="me-1"><a href="https://www.instagram.com/tecnologicasconectadas_/" class="letraEnlace"><i class="bi bi-instagram fs-3"></i></a></li>
+            <li class="mx-2"><a href="mailto:tecnologicasconectadas@gmail.com?subject=Consulta%20Tecnológicas%20Conectadas" class="letraEnlace"><i class="bi bi-envelope-at-fill fs-3"></i></a></li>
+            <li class="ms-1"><a href="https://www.facebook.com/profile.php?id=100092526460914" class="letraEnlace"><i class="bi bi-facebook fs-3"></i></a></li>
           </ul>
         </div>
       </div>

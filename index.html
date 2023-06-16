@@ -1,191 +1,394 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="css/styles.css">
-    <title>Practica Supervisada</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@1,600&family=Source+Code+Pro&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Practica Supervisada</title>
 </head>
+
 <body>
-    <header>
-        <!-- Nav -->
-        <nav class="navbar navbar-expand-lg navbar-dark fondoAzul">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">PS</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse text-uppercase fw-semibold" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                  <li class="nav-item">
-                    <a class="nav-link active letraBlancaEnlace" aria-current="page" href="index.html">inicio</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link letraBlancaEnlace" href="pages/vinculacion.html">vinculación</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link letraBlancaEnlace" href="pages/comunicacion.html">comunicación</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link letraBlancaEnlace" href="pages/administracion.html">administración</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link letraBlancaEnlace" href="pages/mentoreoYFormacion.html">mentoreo y formación</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link letraBlancaEnlace" href="pages/fundadoras.html">fundadoras</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link letraBlancaEnlace" href="pages/contactos.html">contactos</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-        </nav>
+  <header>
+    <!-- Nav -->
+    <nav class="navbar navbar-expand-lg fondoNav">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><img src="imagenes/logo/logo-color.jpeg" alt="logo" class="tamanioLogoNav"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse me-auto evitarDesbordeNav" id="main_nav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active fw-semibold" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item dropdown has-megamenu">
+              <a class="nav-link dropdown-toggle fw-semibold" href="#" data-bs-toggle="dropdown">Comisiones</a>
+              <div class="dropdown-menu megamenu anchoMegaMenu" role="menu">
+                <div class="row g-3">
+                  <div class="col-lg-6 col-sm-7 px-1">
+                    <div class="col-megamenu">
+                      <h6 class="title"><a class="dropdown-item text-uppercase" href="pages/vinculacion.html">vinculación</a></h6>
+                      <ul class="list-unstyled">
+                        <li><a class="dropdown-item" href="#">Subcomisión de tematica de género, diversidad y discapcidad</a></li>
+                        <li><a class="dropdown-item" href="#">Subcomisión de emprendedurismo</a></li>
+                        <li><a class="dropdown-item" href="#">Subcomisión de vinculación con instituciones secundarias públicas y privadas</a></li>
+                        <li><a class="dropdown-item" href="#">Subcomisión de pasantías y patrocinadores</a></li>
+                        <li><a class="dropdown-item" href="#">Subcomisión de gestión de proyectos</a></li>
+                      </ul>
+                    </div> <!-- col-megamenu.// -->
+                  </div><!-- end col-3 -->
+                  <div class="col-lg-6 col-sm-7 px-1">
+                    <div class="col-megamenu">
+                      <h6 class="title"><a class="dropdown-item text-uppercase" href="pages/comunicacion.html">comunicación</a></h6>
+                      <ul class="list-unstyled">
+                        <li><a class="dropdown-item" href="#">Subcomisión de comunicación y difución</a></li>
+                        <li><a class="dropdown-item" href="#">Subcomisión de organización de eventos</a></li>
+                        <li><a class="dropdown-item" href="#">Subcomisión de deporte y salud</a></li>
+                      </ul>
+                    </div> <!-- col-megamenu.// -->
+                  </div><!-- end col-3 -->
+                  <div class="col-lg-6 col-sm-7 px-1">
+                    <div class="col-megamenu">
+                      <h6 class="title"><a class="dropdown-item text-uppercase" href="pages/administracion.html">administración</a></h6>
+                      <ul class="list-unstyled">
+                        <li><a class="dropdown-item" href="#">Subcomisión administrativa</a></li>
+                        <li><a class="dropdown-item" href="#">Subcomisión de asesoramiento legal</a></li>
+                      </ul>
+                    </div> <!-- col-megamenu.// -->
+                  </div>
+                  <div class="col-lg-6 col-sm-7 px-1">
+                    <div class="col-megamenu">
+                      <h6 class="title"><a class="dropdown-item text-uppercase" href="pages/mentoreoYFormacion.html">mentoreo y formación</a></h6>
+                      <ul class="list-unstyled">
+                        <li><a class="dropdown-item" href="#">Subcomisión de mentoreo</a></li>
+                        <li><a class="dropdown-item" href="#">Subcomisión de capacitación</a></li>
+                        <li><a class="dropdown-item" href="#">Subcomisión de gabinete psicopedagogico</a></li>
+                      </ul>
+                    </div> <!-- col-megamenu.// -->
+                  </div><!-- end col-3 -->
+                </div><!-- end row -->
+              </div> <!-- dropdow --> <!-- dropdown-mega-menu.// -->
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-semibold" href="pages/fundadoras.html">Fundadoras</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-semibold" href="pages/contactos.html">Contactos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-semibold" href="pages/novedades.html">Novedades</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link fw-semibold" href="../pages/iniciarSesion.html">Iniciar Sesion</a>
+            </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link fw-semibold" href="../pages/registro.html">Registrarse</a>
+            </li> -->
+          </ul>
+        </div> <!-- navbar-collapse.// -->
+      </div> <!-- container-fluid.// -->
+    </nav>
 
-    </header>
+  </header>
 
-    <main>
+  <main>
 
-        <!-- portada -->
-        <section class="container-fluid fondoBaner">
-            <div class="d-flex justify-content-end text-white mx-sm-4 py-5">
-                <h1 class="ps-4 posicionTitulo">nombre de la organizacion</h1>
-            </div>
-        </section>
-
-        <!-- cards quienes somos, mision, vision, valores y objetivos -->
-        <section class="text-center paddingCards fondoBlanco" id="" >
-          <div class="container col-10 ">
-            <div class="row justify-content-center p-1">
-              <div class="col-4 col-md-2 card p-0 border-2 m-2 bordeAzul">
-                <img src="imagenes/img-iconos-botones/quienes-somos.png" alt="quienes somos" class="card-img-top rounded-0 paddingImgCard">
-                <div class="paddingTituloCard lh-1">
-                  <a href="#" class="text-decoration-none text-uppercase letraAzul tamanioLetraCard">quienes somos</a>
-                </div>
-              </div>
-    
-              <div class="col-4 col-md-2 card mx-md-3 p-0 border-2 m-2 bordeAzul">
-                <img src="imagenes/img-iconos-botones/mision.png" alt="mision" class="card-img-top rounded-0 paddingImgCard">
-                <div class="paddingTituloCard lh-1">
-                  <a href="#" class="text-decoration-none text-uppercase letraAzul tamanioLetraCard">mision</a>
-                </div>
-              </div>
-    
-              <div class="col-4 col-md-2 card p-0 border-2 m-2 bordeAzul">
-                <img src="imagenes/img-iconos-botones/vision.png" alt="vision" class="card-img-top rounded-0 paddingImgCard">
-                <div class="paddingTituloCard lh-1">
-                  <a href="#" class="text-decoration-none text-uppercase letraAzul tamanioLetraCard">vision</a>
-                </div>
-              </div>
-
-              <div class="col-4 col-md-2 card p-0 border-2 m-2 bordeAzul">
-                <img src="imagenes/img-iconos-botones/objetivos.png" alt="valores" class="card-img-top rounded-0 paddingImgCard">
-                <div class="paddingTituloCard lh-1">
-                  <a href="#" class="text-decoration-none text-uppercase letraAzul tamanioLetraCard">valores</a>
-                </div>
-              </div>
-
-              <div class="col-4 col-md-2 card p-0 border-2 m-2 bordeAzul">
-                <img src="imagenes/img-iconos-botones/objetivos.png" alt="objetivos" class="card-img-top rounded-0 paddingImgCard">
-                <div class="paddingTituloCard lh-1">
-                  <a href="#" class="text-decoration-none text-uppercase letraAzul tamanioLetraCard">objetivos</a>
-                </div>
-              </div>
-            </div>
-            
-          </div>
-        </section>       
-
-        <!-- quienes somos -->
-        <section class="container-fluid fondoQuienesSomos letraAzul py-3 py-sm-5 text-center">
-          <h2 class="fw-bold">¿Quienes Somos?</h2>
-          <div class="container">
-            <p class="fw-semibold espacioParrafo tamanioLetraQS">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-          </div>
-        </section>
-
-
-        <!-- mision vision valores objetivos-->
-        <section class="container-fluid px-4 py-4">
-            <div class="row">
-              <div class="col-md-6 order-0 paddingMVVO">
-                <img src="imagenes/mision-vision-valores-objetivos/ejemplo.jpg" class="imgMVVO" alt="mision">
-              </div>
-              <div class="col-md-6 order-1 letraAzul paddingMVVO mb-3 mb-md-0">
-                <h3 class="fw-bold mb-2">Misión</h3>
-                <p class="fw-semibold tamanioLetraMVVO mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-              </div>
-            </div>
-
-            <div class="row">
-              <div class="col-md-6 order-0 order-md-1 paddingMVVO">
-                <img src="imagenes/mision-vision-valores-objetivos/ejemplo.jpg" class="imgMVVO" alt="mision">
-              </div>
-              <div class="col-md-6 order-1 order-md-0 letraAzul paddingMVVO mb-3 mb-md-0">
-                <h3 class="fw-bold mb-2">Visión</h3>
-                <p class="fw-semibold tamanioLetraMVVO mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-              </div>
-            </div>
+    <!-- portada -->
+    <section class="container-fluid px-0">
+        <div id="carouselBaner" class="carousel slide ">
           
-            <div class="row">
-              <div class="col-md-6 order-0 paddingMVVO">
-                <img src="imagenes/mision-vision-valores-objetivos/ejemplo.jpg" class="imgMVVO" alt="mision">
-              </div>
-              <div class="col-md-6 order-1 letraAzul paddingMVVO mb-3 mb-md-0">
-                <h3 class="fw-bold mb-2">Valores</h3>
-                <p class="fw-semibold tamanioLetraMVVO mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-              </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="imagenes/baner/foto1.png" class="d-block w-100" alt="fundadoras">
             </div>
-          
-            <div class="row">
-              <div class="col-md-6 order-0 order-md-1 paddingMVVO">
-                <img src="imagenes/mision-vision-valores-objetivos/ejemplo.jpg" class="imgMVVO" alt="mision">
-              </div>
-              <div class="col-md-6 order-1 order-md-0 letraAzul paddingMVVO mb-3 mb-md-0">
-                <h3 class="fw-bold mb-2">Objetivos</h3>
-                <p class="fw-semibold tamanioLetraMVVO mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-              </div>
-            </div> 
-        </section>
-    </main>
+            <div class="carousel-item">
+              <img src="imagenes/baner/foto2.png" class="d-block w-100" alt="fundadoras">
+            </div>
+            <div class="carousel-item">
+              <img src="imagenes/baner/foto3.png" class="d-block w-100" alt="fundadoras">
+            </div>
+            <div class="carousel-caption text-white text-end py-0 ps-sm-5">
+              <h1 class="text-uppercase tamanioLetraBanerTitulo fuenteLetraTitulo paddingTituloBaner margenTituloBaner">tecnológicas conectadas</h1>
+              <h5 class="text-uppercase tamanioLetraBanerSubtitulo fuenteLetraSubtitulo margenSubtituloBaner">red de mujeres</h5>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselBaner" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselBaner" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+    </section>
 
-    <!-- footer -->
-    <footer class="fondoAzul text-white px-5 py-2 py-sm-4">
-      <section class="container">
-        <div class="row">
-          <div class="col-10 col-sm-3 ">
-            <img src="imagenes/quienes-somos/quienes-somos.jpg" class="w-50 h-50" alt="">
+    <!-- cards quienes somos, mision, vision, valores y objetivos -->
+    <section class="text-center paddingCards fondoBlanco">
+      <div class="container col-9 col-md-8 ">
+        <div class="row justify-content-center p-1">
+          <div class=" col-4 col-sm-2 card border-0 p-0 d-none">
+            <div class="border border-1 rounded-circle imgCard paddingImgCard mx-auto">
+              <img src="imagenes/img-iconos-botones/quienes-somos.png" alt="quienes somos" class="card-img-top">
+            </div>
+            <div class="paddingTituloCard lh-1 mt-2 ">
+              <a href="#quienes-somos" class="text-decoration-none text-uppercase letraColorCardMVVO tamanioLetraCard">quienes
+                somos</a>
+            </div>
           </div>
-          <div class="col-10 col-sm-6">
-            <h4 class="text-uppercase">menu</h4>
-            <ul class="listaMenu list-unstyled">
-              <li><a href="index.html" class="letraBlancaEnlace">Inicio</a></li>
-              <li><a href="pages/vinculacion.html" class="letraBlancaEnlace">Vinculación</a></li>
-              <li><a href="pages/comunicacion.html" class="letraBlancaEnlace">Comunicación</a></li>
-              <li><a href="pages/administracion.html" class="letraBlancaEnlace">Administración</a></li>
-              <li><a href="pages/mentoreoYFormacion.html" class="letraBlancaEnlace">Mentoreo y formación</a></li>
-              <li><a href="pages/fundadoras.html" class="letraBlancaEnlace">Fundadoras</a></li>
-              <li><a href="pages/contactos.html" class="letraBlancaEnlace">Contactos</a></li>
-            </ul>
+
+          <div class="col-4 col-sm-2 card border-0 p-0">
+            <div class="border border-1 rounded-circle imgCard paddingImgCard mx-auto">
+              <img src="imagenes/img-iconos-botones/mision.png" alt="mision" class="card-img-top">
+            </div>
+            <div class="paddingTituloCard lh-1 mt-2 ">
+              <a href="#mision" class="text-decoration-none text-uppercase letraColorCardMVVO tamanioLetraCard">mision</a>
+            </div>
           </div>
-          <div class="col-10 col-sm-3">
-            <h4 class="text-uppercase">redes</h4>
-            <ul class="list-unstyled">
-              <li><a href="#" class="letraBlancaEnlace">1</a></li>
-              <li><a href="#" class="letraBlancaEnlace">2</a></li>
-              <li><a href="#" class="letraBlancaEnlace">3</a></li>
-              <li><a href="#" class="letraBlancaEnlace">4</a></li>
-            </ul>
+
+          <div class="col-4 col-sm-2 card border-0 p-0">
+            <div class="border border-1 rounded-circle imgCard paddingImgCard mx-auto">
+              <img src="imagenes/img-iconos-botones/vision.png" alt="vision" class="card-img-top">
+            </div>
+            <div class="paddingTituloCard lh-1 mt-2 ">
+              <a href="#vision" class="text-decoration-none text-uppercase letraColorCardMVVO tamanioLetraCard">vision</a>
+            </div>
+          </div>
+
+          <div class="col-4 col-sm-2 card border-0 p-0">
+            <div class="border border-1 rounded-circle imgCard paddingImgCard mx-auto">
+              <img src="imagenes/img-iconos-botones/valores.png" alt="valores" class="card-img-top">
+            </div>
+            <div class="paddingTituloCard lh-1 mt-2 ">
+              <a href="#valores" class="text-decoration-none text-uppercase letraColorCardMVVO tamanioLetraCard">valores</a>
+            </div>
+          </div> 
+
+          <div class="col-4 col-sm-2 card border-0 p-0">
+            <div class="border border-1 rounded-circle imgCard paddingImgCard mx-auto">
+              <img src="imagenes/img-iconos-botones/objetivos.png" alt="objetivos" class="card-img-top">
+            </div>
+            <div class="paddingTituloCard lh-1 mt-2 ">
+              <a href="#objetivos" class="text-decoration-none text-uppercase letraColorCardMVVO tamanioLetraCard">objetivos</a>
+            </div>
           </div>
         </div>
-      </section>
-    </footer>
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
-    <script src="js/script.js"></script>
+
+      </div>
+    </section>
+
+    <!-- quienes somos -->
+    <section class="container-fluid fondoQuienesSomos p-0 text-center text-white" id="quienes-somos">
+      <div class="fondoColorTransparente">
+        <p class="fw-semibold espacioParrafo tamanioLetraQS">¡Lideramos el cambio desde la tecnología, para potenciarnos juntas y crecer!</p>
+      </div>
+    </section>
+
+
+    <!-- mision vision valores objetivos-->
+    <section class="container-fluid px-4 py-4">
+
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-6 mb-3 paddingMVVO" id="mision">
+            <h3 class="fw-bold mb-2">Misión</h3>
+            <p class="fw-semibold tamanioLetraMVVO mb-0">Somos una comunidad que nuclea a mujeres de la UTN, con
+              diversos perfiles y
+              roles en la sociedad, que promueven el pleno desarrollo personal, educativo y
+              profesional de sus pares; inspirando a las nuevas generaciones a ser agentes de
+              cambio a través de la implementación de acciones que fomenten el desarrollo
+              sostenible, fortalezcan el rol de la mujer y contribuyan a erradicar las desigualdades
+              de género.</p>
+          </div>
+          <div class="col-md-6 paddingMVVO mb-3 mb-md-0" id="vision">
+            <h3 class="fw-bold my-2 ">Visión</h3>
+            <p class="fw-semibold tamanioLetraMVVO mb-0">Consolidar un espacio en UTN constituido por mujeres que
+              inspiren y mentoreen a
+              otras mujeres, donde se constituyan como agentes que promueven la innovación e
+              impulsan al crecimiento individual y colectivo mediante la participación activa en la
+              problemática social y acelerando la integración igualitaria de las mujeres en la
+              tecnología.
+            </p>
+          </div>
+        </div>
+        <hr>
+      </div>
+
+      <div class="container mt-5 iconsCarousel px-1" id="objetivos">
+        <div id="carouselObjetivos" class="carousel carousel-dark slide">
+          <h3 class="fw-bold mb-3">Objetivos</h3>
+          <div class="carousel-inner fw-semibold tamanioLetraMVVO">
+            <div class="carousel-item active">
+              <div class="row justify-content-center tamanioCardCarousel">
+                <div class="col-10 paddingMVVO mb-3 mb-md-0 px-1">
+                  <p class="ms-4 ms-sm-0">Consolidar una corriente de pensamiento para potenciar la participación de
+                    las mujeres en tecnología a través de oportunidades de networking, mentoría
+                    y liderazgo.</p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row justify-content-center tamanioCardCarousel">
+                <div class="col-10 paddingMVVO mb-3 mb-md-0 px-1">
+                  <p class="ms-4 ms-sm-0">Desarrollar programas e iniciativas dinámicas para responder a las
+                    necesidades y experiencias del contexto regional que combinen: habilidades
+                    técnicas-tecnológicas, habilidades blandas y habilidades de impacto.</p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row justify-content-center tamanioCardCarousel">
+                <div class="col-10 paddingMVVO mb-3 mb-md-0 px-1">
+                  <p class="ms-4 ms-sm-0">Participar de espacios de articulación regional, nacional e internacional con
+                    otras organizaciones de mujeres que generen impactos sociales, económicos
+                    y culturales.</p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row justify-content-center tamanioCardCarousel">
+                <div class="col-10 paddingMVVO mb-3 mb-md-0 px-1">
+                  <p class="ms-4 ms-sm-0">Generar espacios de diálogo y apoyo para potenciar la construcción colectiva
+                    y el desarrollo personal de las mujeres, como estrategia de transformación
+                    para convertirse en agentes de cambio de su propia realidad y la de otras
+                    mujeres.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselObjetivos" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselObjetivos" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <hr>
+      </div>
+
+      <div class="container mt-5 iconsCarousel px-1" id="valores">
+        <div id="carouselValores" class="carousel carousel-dark slide">
+          <h3 class="fw-bold mb-4">Valores</h3>
+          <div class="carousel-inner fw-semibold tamanioLetraMVVO">
+            <div class="carousel-item active">
+              <div class="row justify-content-center tamanioCardCarousel">
+                <div class="col-10 paddingMVVO mb-3 mb-md-0 p-1">
+                  <p class="ms-4 ms-sm-0">Empatía: Incentivar la capacidad de comprender y percibir como propios los
+                    sentimientos, emociones y acciones de las mujeres miembros de la
+                    comunidad, como muestra de respeto y base para alinear y promover
+                    acciones colaborativas, motivadoras y de apoyo a través de la escucha
+                    activa.</p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row justify-content-center tamanioCardCarousel">
+                <div class="col-10 paddingMVVO mb-3 mb-md-0 p-1">
+                  <p class="ms-4 ms-sm-0">Compromiso: Garantizar la colaboración, apoyo y empoderamiento a las
+                    mujeres de la comunidad UTN, asumiendo las responsabilidades que estas
+                    actividades conllevan. Transformando las promesas en realidad para
+                    mantener la esencia de la proactividad. Como así también, dedicar tiempo y
+                    recursos para llevar a cabo los programas y proyectos de la Red.</p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row justify-content-center tamanioCardCarousel">
+                <div class="col-10 paddingMVVO mb-3 mb-md-0 px-1">
+                  <p class="ms-4 ms-sm-0">Trabajo en equipo: Fomentar el sentido de pertenencia, la lealtad y la
+                    motivación de todas las mujeres de la comunidad a la prosecución de una
+                    meta común, subordinando los intereses personales a los objetivos de la red,
+                    potenciando las capacidades de cada una y complementándose entre sí para
+                    generar resultados que no podrían ser alcanzados si se trabajara de forma
+                    individual.</p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row justify-content-center tamanioCardCarousel">
+                <div class="col-10 paddingMVVO mb-3 mb-md-0 px-1">
+                  <p class="ms-4 ms-sm-0">Resiliencia: Acompañar a las mujeres de la Red fortaleciendo su capacidad
+                    para hacer frente a las adversidades, aprendiendo de las mismas y
+                    superándolas, para conseguir un beneficio o un cambio para un futuro mejor.</p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row justify-content-center tamanioCardCarousel">
+                <div class="col-10 paddingMVVO mb-3 mb-md-0 px-1">
+                  <p class="ms-4 ms-sm-0">Innovación: Nos pensamos como una organización que cambia, evoluciona
+                    y se transforma de acuerdo a las necesidades de nuestra comunidad y el
+                    mercado, optimizando sus procesos y brindando valor agregado a sus
+                    integrantes y aliados estratégicos.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselValores" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselValores" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+      </div>
+
+    </section>
+  </main>
+
+  <!-- footer -->
+  <footer class="fondoFooter px-5 py-2 py-sm-4 text-white">
+    <section class="container">
+      <div class="row">
+        <div class="col-10 col-sm-3 py-2 px-0">
+          <img src="imagenes/logo/logo3.png" class="tamanioLogoFooter" alt="logo">
+        </div>
+        <div class="col-10 col-sm-6 px-4 py-2">
+          <h4 class="text-uppercase">menu</h4>
+          <ul class="listaDoble list-unstyled">
+            <li><a href="index.html" class="letraEnlace">Inicio</a></li>
+            <li><a href="pages/vinculacion.html" class="letraEnlace">Vinculación</a></li>
+            <li><a href="pages/comunicacion.html" class="letraEnlace">Comunicación</a></li>
+            <li><a href="pages/administracion.html" class="letraEnlace">Administración</a></li>
+            <li><a href="pages/mentoreoYFormacion.html" class="letraEnlace">Mentoreo y formación</a></li>
+            <li><a href="pages/fundadoras.html" class="letraEnlace">Fundadoras</a></li>
+            <li><a href="pages/contactos.html" class="letraEnlace">Contactos</a></li>
+            <li><a href="pages/fotos.html" class="letraEnlace">Fotos</a></li>
+          </ul>
+        </div>
+        <div class="col-10 col-sm-3 px-4 py-2">
+          <h4 class="text-uppercase">redes</h4>
+          <ul class="list-group list-group-horizontal list-unstyled ">
+            <li class="me-1"><a href="https://www.instagram.com/tecnologicasconectadas_/" class="letraEnlace"><i class="bi bi-instagram fs-3"></i></a></li>
+            <li class="mx-2"><a href="mailto:tecnologicasconectadas@gmail.com?subject=Consulta%20Tecnológicas%20Conectadas" class="letraEnlace"><i class="bi bi-envelope-at-fill fs-3"></i></a></li>
+            <li class="ms-1"><a href="https://www.facebook.com/profile.php?id=100092526460914" class="letraEnlace"><i class="bi bi-facebook fs-3"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+  <script src="js/script.js"></script>
 </body>
+
 </html>

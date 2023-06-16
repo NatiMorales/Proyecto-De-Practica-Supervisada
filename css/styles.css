@@ -11,45 +11,86 @@ main{
 /* pagina inicial */
 /*nav*/
 
-.fondoAzul {
-    background-color: #011538;
+.anchoMegaMenu{
+    width: 99.88%!important;
+} 
+
+
+.navbar .megamenu{ 
+    padding: 5px; /*1rem*/
 }
 
-.letraBlancaEnlace{
-    color: #ffffff;
-    text-decoration: none;
+
+
+.dropdown-menu li a{  
+    color: gray;
+    padding: 5px 10px; /*.5em 1em*/
+    font-size: 10px;
+    
+}
+
+
+.fondoNav {
+    background-color: #ffffff;
+}
+
+.tamanioLogoNav{
+    width: 50px;
+    height: 55px;
+}
+
+.evitarDesbordeNav{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow-x: hidden;
+    
 }
 
 
 /*baner*/
-.fondoBaner {
-    background-image: url(../imagenes/baner/baner.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 0px 0px;
-    object-fit: contain;
-    width: 100%;
-    height: 250px;
 
+.tamanioLetraBanerTitulo{
+    font-size: 17px;
 }
 
-.posicionTitulo {
-    width: 75%;
+.tamanioLetraBanerSubtitulo{
+    font-size: 12px;
+}
+
+.margenTituloBaner{
+    margin: 0px 0px 5px 0px;
+}
+
+.margenSubtituloBaner{
+    margin: 0px 0px 10px 0px;
+}
+
+.paddingTituloBaner{
+    padding: 0px 0px 0px 29px;
+}
+
+.fuenteLetraTitulo{
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.fuenteLetraSubtitulo{
+    font-family: 'Source Code Pro', monospace;
 }
 
 /*cards */
 
-.fondoBlanco {
+/* .fondoBlanco {
     background-color: #ffffff;
+} */
+
+.border{
+    --bs-border-color: #2b7cb3;
 }
 
-.bordeAzul {
-    border-color: #011538;
+.letraColorCardMVVO {
+    color: #2b7cb3 ;
 }
 
-.letraAzul {
-    color: #011538;
-}
 
 .tamanioLetraCard {
     font-size: 8px;
@@ -67,22 +108,29 @@ main{
     padding: 0px 0px 4px 0px;
 }
 
+.imgCard{
+    width: 50px;
+    height: 50px;
+}
+
 /*quienes somos*/
 
 .fondoQuienesSomos {
-    background-image: url(../imagenes/quienes-somos/quienes-somos.jpg);
+    background-image: url(../imagenes/quienes-somos/quienes-somos.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
-    object-fit: contain;
+    background-position: 0px -0px;
+    object-fit: contain; 
+    
 }
 
 .espacioParrafo {
-    padding: 20px 20px;
+    padding: 100px 20px;
     margin: 0px;
 }
 
 .tamanioLetraQS {
-    font-size: 14px;
+    font-size: 20px;
 }
 
 /* mision vision valores objetivos*/
@@ -95,34 +143,62 @@ main{
 }
 
 .tamanioLetraMVVO {
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .paddingMVVO {
     padding: 5px 10px;
 }
 
+.tamanioCardCarousel{
+    width: 100%;
+    height: 100%;
+}
+
 /* footer */
 
-/* .listaMenu{
-    column-count: 2;
-} */
+.tamanioLogoFooter{
+    width: 130px;
+    height: 135px;
+}
+
+.fondoFooter{
+    background-color: #9e4495;
+}
+
+.letraEnlace{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.iconsCarousel .carousel-control-next{
+    justify-content: end!important;
+} 
+.iconsCarousel .carousel-control-prev {
+    justify-content: start!important;
+}
 
 
 /*pagina vinculacion, comunicacion, administracion y mentoria y formacion*/
 /*Baner comision*/
 .fondoBanerComision{
-    background-image: url(../imagenes/quienes-somos/quienes-somos.jpg);
+    background-image: url(../imagenes/comisiones/banerPages1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 0px 0px;
     object-fit: contain;
     width: 100%;
-    height: 250px;
+    height: 200px; 
 }
 
-.fondoGris{
-    background-color: #989DAF;
+.fondoColorTransparente{
+    background-color: rgba(158, 68, 149, 0.6);
+    width: 100%;
+    height: 100%;
+}
+
+.fondoColorSubcomisiones{
+    background-color: rgba(43, 124, 179, 0.3);
 }
 
 .letraSubcomisiones{
@@ -137,6 +213,21 @@ main{
 }
 
 /*pagina fundadoras*/
+.ordenCardsFundadoras{
+    display: flex;
+    justify-content: center;
+}
+
+.largoCardFundadoras{
+    width: 190px;
+    height: 280px;
+}
+
+.imgFundadoras{
+    object-fit:cover;
+    height: 70%;
+}
+
 /*iconos*/
 
 .tamanioIcono{
@@ -144,28 +235,75 @@ main{
     height: 50px;
 }
 
+/*pagina contactos*/
+.tamanioLetraContactos{
+    font-size: 14px;
+}
+
+.evitarDesbordeMapContactos{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow-x:scroll;
+}
+
+
+@media(max-width:899px){
+
+    .navbar.fixed-top .navbar-collapse, .navbar.sticky-top .navbar-collapse{
+        overflow-y: auto;
+        max-height: 90vh;
+        margin-top:10px;
+    }
+}
 
 @media(min-width: 900px) {
 
-    /*baner*/
-    .fondoBaner {
-        background-image: url(../imagenes/baner/baner.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: 0px -270px;
-        object-fit: contain;
-        width: 100%;
-        height: 500px
+    /*nav*/
+    .dropdown-menu li a{  
+        color: gray;
+        padding: 5px 10px; /*.5em 1em*/
+        font-size: 14px;
+        
     }
 
-    .posicionTitulo {
-        width: 25%;
+    .navbar .has-megamenu{
+        position:static!important;
+    }
+    .navbar .megamenu{
+        left:0; right:0; width:100%; margin-top:0;  
+    }
+
+    .tamanioLogoNav{
+        width: 70px;
+        height: 75px;
+    }
+
+    /*baner*/
+
+    .tamanioLetraBanerTitulo{
+        font-size: 55px;
+    }
+    
+    .tamanioLetraBanerSubtitulo{
+        font-size: 30px;
+    }
+
+    .margenTituloBaner{
+        margin: 0px 0px 20px 0px;
+    }
+    
+    .margenSubtituloBaner{
+        margin: 0px 0px 170px 0px;
+    }
+
+    .paddingTituloBaner{
+        padding: 0px 0px 0px 100px;
     }
 
     /*cards*/
 
     .paddingCards {
-        padding: 60px 8px;
+        padding: 50px 8px;
     }
 
     .paddingImgCard {
@@ -180,15 +318,29 @@ main{
         font-size: 12px;
     }
 
+    .imgCard{
+        width: 80px;
+        height: 80px;
+    }
+
     /*quienes somos*/
 
+    .fondoQuienesSomos {
+        background-image: url(../imagenes/quienes-somos/quienes-somos.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 0px -250px;
+        object-fit: contain; 
+        
+    }
+
     .espacioParrafo {
-        padding: 20px 20%;
+        padding: 150px 180px;
         margin: 0px;
     }
 
     .tamanioLetraQS {
-        font-size: 20px;
+        font-size: 34px;
     }
 
     /* mision vision valores objetivos*/
@@ -208,17 +360,42 @@ main{
         padding: 16px 8px;
     }
 
+    .tamanioCardCarousel{
+        width: 100%;
+        height: 100%;
+    }
+
     /* footer */
 
-    .listaMenu {
+    .listaDoble {
         column-count: 2;
     }
 
     /*pagina vinculacion, comunicacion, administracion y mentoria y formacion*/
     /*Baner comision*/
-    
+
+    .fondoBanerComision{
+        background-image: url(../imagenes/comisiones/banerPages1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 0px -305px;
+        object-fit: contain;
+        width: 100%;
+        height: 200px; 
+    }
 
     .letraSubcomisiones{
+        font-size: 20px;
+    }
+
+    /*pagina fundadoras*/
+    .ordenCardsFundadoras{
+        display: flex;
+        justify-content: start;
+    }
+
+    /*pagina contactos*/
+    .tamanioLetraContactos{
         font-size: 20px;
     }
 
@@ -226,29 +403,46 @@ main{
 
 @media(min-width: 600px) and (max-width: 899px) {
 
+    /*nav*/
+
+    .dropdown-menu li a{  
+        color: gray;
+        padding: 5px 10px; /*.5em 1em*/
+        font-size: 14px;
+        
+    }
+
+    .tamanioLogoNav{
+        width: 65px;
+        height: 70px;
+    }
+
     /*baner*/
-    .fondoBaner {
-        background-image: url(../imagenes/baner/baner.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: 0px -70px;
-        object-fit: contain;
-        width: 100%;
-        height: 400px;
-
+    
+    .tamanioLetraBanerTitulo{
+        font-size: 35px;
+    }
+    
+    .tamanioLetraBanerSubtitulo{
+        font-size: 20px;
     }
 
-    .posicionTitulo {
-        width: 50%;
+    .margenTituloBaner{
+        margin: 0px 0px 20px 0px;
     }
+    
+    .margenSubtituloBaner{
+        margin: 0px 0px 100px 0px;
+    }
+
+    .paddingTituloBaner{
+        padding: 0px 0px 0px 82px;
+    }
+
 
     /*cards*/
     .paddingCards {
         padding: 30px 8px;
-    }
-
-    .paddingImgCard {
-        padding: 16px;
     }
 
     .paddingTituloCard {
@@ -256,13 +450,27 @@ main{
     }
 
     .tamanioLetraCard {
-        font-size: 12px;
+        font-size: 11px;
     }
 
     /*quienes somos*/
 
+    .fondoQuienesSomos {
+        background-image: url(../imagenes/quienes-somos/quienes-somos.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 0px -140px;
+        object-fit: contain; 
+      
+    }
+
+    .espacioParrafo {
+        padding: 120px 150px;
+        margin: 0px;
+    }
+
     .tamanioLetraQS {
-        font-size: 18px;
+        font-size: 22px;
     }
 
     /* mision vision valores objetivos*/
@@ -280,13 +488,21 @@ main{
 
     /* footer */
 
-    .listaMenu {
+    .listaDoble {
         column-count: 2;
     }
 
     /*pagina vinculacion, comunicacion, administracion y mentoria y formacion*/
     /*Baner comision*/
-    
+    .fondoBanerComision{
+        background-image: url(../imagenes/comisiones/banerPages1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 0px -130px;
+        object-fit: contain;
+        width: 100%;
+        height: 200px; 
+    }
 
     .letraSubcomisiones{
         font-size: 14px;
@@ -298,40 +514,74 @@ main{
         object-fit: cover;
         object-position: 0px -40px;
     }
+
+    /*pagina fundadoras*/
+    .ordenCardsFundadoras{
+        display: flex;
+        justify-content: start;
+    }
+
+    /*pagina contactos*/
+    .tamanioLetraContactos{
+        font-size: 18px;
+    }
 }
 
 @media(min-width:400px) and (max-width:600px) {
 
-    .fondoBaner {
-        background-image: url(../imagenes/baner/baner.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: 0px -30px;
-        object-fit: contain;
-        width: 100%;
-        height: 300px;
-
+    /*nav*/
+    .dropdown-menu li a{  
+        color: gray;
+        padding: 5px 10px; /*.5em 1em*/
+        font-size: 12px;
+        
     }
 
-    .posicionTitulo {
-        width: 50%;
+    .tamanioLogoNav{
+        width: 60px;
+        height: 65px;
+    }
+    
+    .tamanioLetraBanerTitulo{
+        font-size: 24px;
+    }
+    
+    .tamanioLetraBanerSubtitulo{
+        font-size: 18px;
+    }
+
+    .margenTituloBaner{
+        margin: 0px 0px 8px 0px;
+    }
+    
+    .margenSubtituloBaner{
+        margin: 0px 0px 40px 0px;
+    }
+
+    .paddingTituloBaner{
+        padding: 0px 0px 0px 80px;
     }
 
     /*cards*/
 
-    .paddingImgCard {
-        padding: 16px;
-    }
-
 
     .tamanioLetraCard {
-        font-size: 12px;
+        font-size: 10px;
     }
 
     /*quienes somos*/
 
+    .fondoQuienesSomos {
+        background-image: url(../imagenes/quienes-somos/quienes-somos.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 0px -50px;
+        object-fit: contain; 
+        
+    }
+
     .tamanioLetraQS {
-        font-size: 16px;
+        font-size: 20px;
     }
 
     /* mision vision valores objetivos*/
@@ -344,12 +594,21 @@ main{
     }
 
     .tamanioLetraMVVO {
-        font-size: 14px;
+        font-size: 15px;
     }
+
 
     /*pagina vinculacion, comunicacion, administracion y mentoria y formacion*/
     /*Baner comision*/
-    
+    .fondoBanerComision{
+        background-image: url(../imagenes/comisiones/banerPages1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 0px -20px;
+        object-fit: contain;
+        width: 100%;
+        height: 200px; 
+    }
 
     .letraSubcomisiones{
         font-size: 14px;
@@ -360,6 +619,17 @@ main{
         height: 250px;
         object-fit: cover;
         object-position: 0px -40px;
+    }
+
+    /*pagina fundadoras*/
+    .ordenCardsFundadoras{
+        display: flex;
+        justify-content: start;
+    }
+
+    /*pagina contactos*/
+    .tamanioLetraContactos{
+        font-size: 16px;
     }
     
 }
