@@ -2,6 +2,7 @@ body{
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    
 }
 
 main{
@@ -62,11 +63,11 @@ main{
 }
 
 .margenSubtituloBaner{
-    margin: 0px 0px 10px 0px;
+    margin: 0px 20px 0px 0px;
 }
 
 .paddingTituloBaner{
-    padding: 0px 0px 0px 29px;
+    padding: 0px 20px 0px 0px;
 }
 
 .fuenteLetraTitulo{
@@ -77,6 +78,46 @@ main{
     font-family: 'Source Code Pro', monospace;
 }
 
+.imgNoticiaP{
+    width: 100%;
+    height: 150px;
+    object-fit: cover; 
+}
+
+.imgNoticiaS{
+    width: 100%;
+    height: 60px;
+    object-fit: cover; 
+}
+
+
+/* historia */
+.imgHistoria{
+    width: 100%;
+    margin: 0px 0px 30px 0px;
+    box-shadow: 7px 7px 0px 0px #9e449581 ;
+    
+}
+
+.tamanioLetraTituloHistoria{
+    font-size: 22px;
+}
+
+.tamanioLetraHistoria{
+    font-size: 14px;
+}
+
+.lineaPequenia{
+    width: 20%;
+    border: 2px solid #2b7cb3;
+    margin: 4px 0px 10px 0px;
+}
+
+.paddingHistoria{
+    padding: 0px 0px 0px 0px;
+}
+
+/* Acerca de*/
 /*cards */
 
 /* .fondoBlanco {
@@ -96,8 +137,21 @@ main{
     font-size: 8px;
 }
 
+/* .fondoCardMVVO1{
+    background-color: #9e44958c;
+    
+} */
+.fondoCardMVVO{
+    background-color: #2b7db334;
+    
+}
+
 .paddingCards {
     padding: 8px;
+}
+
+.paddingCardsMVVO{
+    padding: 16px 4px;
 }
 
 .paddingImgCard {
@@ -108,10 +162,15 @@ main{
     padding: 0px 0px 4px 0px;
 }
 
+.margenCardsMVVO{
+    margin: 2px 5px;
+}
+
 .imgCard{
     width: 50px;
     height: 50px;
 }
+
 
 /*quienes somos*/
 
@@ -173,10 +232,18 @@ main{
 
 .iconsCarousel .carousel-control-next{
     justify-content: end!important;
+    
 } 
 .iconsCarousel .carousel-control-prev {
     justify-content: start!important;
+    
 }
+
+.colorDetalles{
+    color: #2b7db3;
+}
+
+
 
 
 /*pagina vinculacion, comunicacion, administracion y mentoria y formacion*/
@@ -281,7 +348,7 @@ main{
     /*baner*/
 
     .tamanioLetraBanerTitulo{
-        font-size: 55px;
+        font-size: 45px;
     }
     
     .tamanioLetraBanerSubtitulo{
@@ -293,17 +360,58 @@ main{
     }
     
     .margenSubtituloBaner{
-        margin: 0px 0px 170px 0px;
+        margin: 0px 100px 0px 0px;
     }
 
     .paddingTituloBaner{
-        padding: 0px 0px 0px 100px;
+        padding: 0px 100px 0px 0px;
     }
 
+    .imgNoticiaP{
+        width: 100%;
+        height: 350px;
+        object-fit: cover;
+    }
+    
+    .imgNoticiaS{
+        width: 100%;
+        height: 170px;
+        object-fit: cover;
+    }
+
+
+    /*historia*/
+    .imgHistoria{
+        width: 55%;
+        margin: 0px 30px 10px 0px;
+        box-shadow: 13px 13px 0px 0px #9e449581 ;
+        float: left; 
+    }
+
+    .tamanioLetraTituloHistoria{
+        font-size: 40px;
+    }
+
+    .tamanioLetraHistoria{
+        font-size: 23px;
+    }
+    
+    .lineaPequenia{
+        width: 9%;
+        border: 3px solid #2b7cb3;
+        margin: 4px 0px 10px 0px;
+    
+    }
+
+    .paddingHistoria{
+        padding: 0px 24px 0px 0px;
+    }
+
+    /*acerca de*/
     /*cards*/
 
     .paddingCards {
-        padding: 50px 8px;
+        padding: 20px 8px;
     }
 
     .paddingImgCard {
@@ -312,6 +420,10 @@ main{
 
     .paddingTituloCard {
         padding: 0px 8px 8px 8px;
+    }
+
+    .margenCardsMVVO{
+        margin: 0px 8px;
     }
 
     .tamanioLetraCard {
@@ -432,14 +544,48 @@ main{
     }
     
     .margenSubtituloBaner{
-        margin: 0px 0px 100px 0px;
+        margin: 0px 50px 0px 0px;
     }
 
     .paddingTituloBaner{
-        padding: 0px 0px 0px 82px;
+        padding: 0px 50px 0px 0px;
     }
 
+    .imgNoticiaP{
+        width: 100%;
+        height: 250px;
+        object-fit: cover; 
+    }
+    
+    .imgNoticiaS{
+        width: 100%;
+        height: 120px;
+        object-fit: cover; 
+    }
 
+    /* historia */
+    .imgHistoria{
+        width: 100%;
+        margin: 0px 0px 30px 0px;
+        box-shadow: 13px 13px 0px 0px #9e449581 ;
+        
+    }
+
+    .tamanioLetraTituloHistoria{
+        font-size: 40px;
+    }
+
+    .tamanioLetraHistoria{
+        font-size: 20px;
+    }
+    
+    .lineaPequenia{
+        width: 8%;
+        border: 3px solid #2b7cb3;
+        margin: 4px 0px 10px 0px;
+    }
+
+    /* acerca de */
     /*cards*/
     .paddingCards {
         padding: 30px 8px;
@@ -447,6 +593,10 @@ main{
 
     .paddingTituloCard {
         padding: 0px 8px 8px 8px;
+    }
+
+    .margenCardsMVVO{
+        margin: 0px 7px;
     }
 
     .tamanioLetraCard {
@@ -551,19 +701,57 @@ main{
     }
 
     .margenTituloBaner{
-        margin: 0px 0px 8px 0px;
+        margin: 0px 0px 0px 0px;
     }
     
     .margenSubtituloBaner{
-        margin: 0px 0px 40px 0px;
+        margin: 0px 25px 0px 0px;
     }
 
     .paddingTituloBaner{
-        padding: 0px 0px 0px 80px;
+        padding: 0px 25px 0px 0px;
     }
 
+    .imgNoticiaP{
+        width: 100%;
+        height: 200px;
+        object-fit: cover; 
+    }
+    
+    .imgNoticiaS{
+        width: 100%;
+        height: 100px;
+        object-fit: cover; 
+    }
+
+    /* historia */
+    .imgHistoria{
+        width: 100%;
+        margin: 0px 0px 30px 0px;
+        box-shadow: 13px 13px 0px 0px #9e449581 ;
+        
+    }
+
+    .tamanioLetraTituloHistoria{
+        font-size: 32px;
+    }
+
+    .tamanioLetraHistoria{
+        font-size: 16px;
+    }
+    
+    .lineaPequenia{
+        width: 15%;
+        border: 2px solid #2b7cb3;
+        margin: 4px 0px 10px 0px;
+    }
+
+    /*acerca de*/
     /*cards*/
 
+    .margenCardsMVVO{
+        margin: 2px 6px;
+    } 
 
     .tamanioLetraCard {
         font-size: 10px;
