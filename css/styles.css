@@ -51,11 +51,11 @@ main{
 /*baner*/
 
 .tamanioLetraBanerTitulo{
-    font-size: 17px;
+    font-size: 14px;
 }
 
 .tamanioLetraBanerSubtitulo{
-    font-size: 12px;
+    font-size: 10px;
 }
 
 .margenTituloBaner{
@@ -174,8 +174,8 @@ main{
 
 /*quienes somos*/
 
-.fondoQuienesSomos {
-    background-image: url(../imagenes/quienes-somos/quienes-somos.jpeg);
+.fondoBanerAcercaDe {
+    background-image: url(../imagenes/banerPages/banerPages.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 0px -0px;
@@ -248,8 +248,8 @@ main{
 
 /*pagina vinculacion, comunicacion, administracion y mentoria y formacion*/
 /*Baner comision*/
-.fondoBanerComision{
-    background-image: url(../imagenes/comisiones/banerPages1.jpg);
+.fondoBanerPages{
+    background-image: url(../imagenes/banerPages/banerPages.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 0px 0px;
@@ -313,6 +313,11 @@ main{
     overflow-x:scroll;
 }
 
+/*pagina talleres*/
+.letraDescripcionTalleres{
+    font-size: 12px;
+}
+
 
 @media(max-width:899px){
 
@@ -348,15 +353,15 @@ main{
     /*baner*/
 
     .tamanioLetraBanerTitulo{
-        font-size: 45px;
+        font-size: 35px;
     }
     
     .tamanioLetraBanerSubtitulo{
-        font-size: 30px;
+        font-size: 25px;
     }
 
     .margenTituloBaner{
-        margin: 0px 0px 20px 0px;
+        margin: 0px 0px 5px 0px;
     }
     
     .margenSubtituloBaner{
@@ -437,8 +442,9 @@ main{
 
     /*quienes somos*/
 
-    .fondoQuienesSomos {
-        background-image: url(../imagenes/quienes-somos/quienes-somos.jpeg);
+    .fondoBanerAcercaDe {
+        
+        background-image: url(../imagenes/banerPages/banerPages.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: 0px -250px;
@@ -447,7 +453,7 @@ main{
     }
 
     .espacioParrafo {
-        padding: 150px 180px;
+        padding: 100px 180px;
         margin: 0px;
     }
 
@@ -486,8 +492,8 @@ main{
     /*pagina vinculacion, comunicacion, administracion y mentoria y formacion*/
     /*Baner comision*/
 
-    .fondoBanerComision{
-        background-image: url(../imagenes/comisiones/banerPages1.jpg);
+    .fondoBanerPages{
+        background-image: url(../imagenes/banerPages/banerPages.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: 0px -305px;
@@ -511,6 +517,11 @@ main{
         font-size: 20px;
     }
 
+    /*pagina talleres*/
+    .letraDescripcionTalleres{
+        font-size: 15px;
+    }
+
 }
 
 @media(min-width: 600px) and (max-width: 899px) {
@@ -532,7 +543,7 @@ main{
     /*baner*/
     
     .tamanioLetraBanerTitulo{
-        font-size: 35px;
+        font-size: 30px;
     }
     
     .tamanioLetraBanerSubtitulo{
@@ -540,7 +551,7 @@ main{
     }
 
     .margenTituloBaner{
-        margin: 0px 0px 20px 0px;
+        margin: 0px 0px 5px 0px;
     }
     
     .margenSubtituloBaner{
@@ -605,8 +616,8 @@ main{
 
     /*quienes somos*/
 
-    .fondoQuienesSomos {
-        background-image: url(../imagenes/quienes-somos/quienes-somos.jpeg);
+    .fondoBanerAcercaDe {
+        background-image: url(../imagenes/banerPages/banerPages.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: 0px -140px;
@@ -644,8 +655,8 @@ main{
 
     /*pagina vinculacion, comunicacion, administracion y mentoria y formacion*/
     /*Baner comision*/
-    .fondoBanerComision{
-        background-image: url(../imagenes/comisiones/banerPages1.jpg);
+    .fondoBanerPages{
+        background-image: url(../imagenes/banerPages/banerPages.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: 0px -130px;
@@ -675,6 +686,11 @@ main{
     .tamanioLetraContactos{
         font-size: 18px;
     }
+
+    /*pagina talleres*/
+    .letraDescripcionTalleres{
+        font-size: 14px;
+    }
 }
 
 @media(min-width:400px) and (max-width:600px) {
@@ -693,11 +709,11 @@ main{
     }
     
     .tamanioLetraBanerTitulo{
-        font-size: 24px;
+        font-size: 22px;
     }
     
     .tamanioLetraBanerSubtitulo{
-        font-size: 18px;
+        font-size: 15px;
     }
 
     .margenTituloBaner{
@@ -759,8 +775,8 @@ main{
 
     /*quienes somos*/
 
-    .fondoQuienesSomos {
-        background-image: url(../imagenes/quienes-somos/quienes-somos.jpeg);
+    .fondoBanerAcercaDe {
+        background-image: url(../imagenes/banerPages/banerPages.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: 0px -50px;
@@ -788,8 +804,8 @@ main{
 
     /*pagina vinculacion, comunicacion, administracion y mentoria y formacion*/
     /*Baner comision*/
-    .fondoBanerComision{
-        background-image: url(../imagenes/comisiones/banerPages1.jpg);
+    .fondoBanerPages{
+        background-image: url(../imagenes/banerPages/banerPages.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: 0px -20px;
