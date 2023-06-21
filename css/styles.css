@@ -51,11 +51,11 @@ main{
 /*baner*/
 
 .tamanioLetraBanerTitulo{
-    font-size: 14px;
+    font-size: 25px;
 }
 
 .tamanioLetraBanerSubtitulo{
-    font-size: 10px;
+    font-size: 15px;
 }
 
 .margenTituloBaner{
@@ -63,11 +63,11 @@ main{
 }
 
 .margenSubtituloBaner{
-    margin: 0px 20px 0px 0px;
+    margin: 0px 8px 0px 0px;
 }
 
 .paddingTituloBaner{
-    padding: 0px 20px 0px 0px;
+    padding: 0px 8px 0px 0px;
 }
 
 .fuenteLetraTitulo{
@@ -172,8 +172,6 @@ main{
 }
 
 
-/*quienes somos*/
-
 .fondoBanerAcercaDe {
     background-image: url(../imagenes/banerPages/banerPages.jpg);
     background-repeat: no-repeat;
@@ -184,11 +182,11 @@ main{
 }
 
 .espacioParrafo {
-    padding: 100px 20px;
+    padding: 40px 20px;
     margin: 0px;
 }
 
-.tamanioLetraQS {
+.tamanioLetraAD {
     font-size: 20px;
 }
 
@@ -217,8 +215,8 @@ main{
 /* footer */
 
 .tamanioLogoFooter{
-    width: 130px;
-    height: 135px;
+    width: 120px;
+    height: 125px;
 }
 
 .fondoFooter{
@@ -243,7 +241,9 @@ main{
     color: #2b7db3;
 }
 
-
+.listaDobleMenuFooter {
+    column-count: 2;
+}
 
 
 /*pagina vinculacion, comunicacion, administracion y mentoria y formacion*/
@@ -286,7 +286,7 @@ main{
 }
 
 .largoCardFundadoras{
-    width: 190px;
+    width: 175px;
     height: 280px;
 }
 
@@ -353,7 +353,7 @@ main{
     /*baner*/
 
     .tamanioLetraBanerTitulo{
-        font-size: 35px;
+        font-size: 40px;
     }
     
     .tamanioLetraBanerSubtitulo{
@@ -394,7 +394,7 @@ main{
     }
 
     .tamanioLetraTituloHistoria{
-        font-size: 40px;
+        font-size: 30px;
     }
 
     .tamanioLetraHistoria{
@@ -440,8 +440,6 @@ main{
         height: 80px;
     }
 
-    /*quienes somos*/
-
     .fondoBanerAcercaDe {
         
         background-image: url(../imagenes/banerPages/banerPages.jpg);
@@ -453,11 +451,11 @@ main{
     }
 
     .espacioParrafo {
-        padding: 100px 180px;
+        padding: 50px 250px;
         margin: 0px;
     }
 
-    .tamanioLetraQS {
+    .tamanioLetraAD {
         font-size: 34px;
     }
 
@@ -485,7 +483,7 @@ main{
 
     /* footer */
 
-    .listaDoble {
+    .listaDobleMenuFooter {
         column-count: 2;
     }
 
@@ -543,7 +541,7 @@ main{
     /*baner*/
     
     .tamanioLetraBanerTitulo{
-        font-size: 30px;
+        font-size: 40px;
     }
     
     .tamanioLetraBanerSubtitulo{
@@ -555,11 +553,11 @@ main{
     }
     
     .margenSubtituloBaner{
-        margin: 0px 50px 0px 0px;
+        margin: 0px 30px 0px 0px;
     }
 
     .paddingTituloBaner{
-        padding: 0px 50px 0px 0px;
+        padding: 0px 30px 0px 0px;
     }
 
     .imgNoticiaP{
@@ -583,7 +581,7 @@ main{
     }
 
     .tamanioLetraTituloHistoria{
-        font-size: 40px;
+        font-size: 35px;
     }
 
     .tamanioLetraHistoria{
@@ -614,8 +612,6 @@ main{
         font-size: 11px;
     }
 
-    /*quienes somos*/
-
     .fondoBanerAcercaDe {
         background-image: url(../imagenes/banerPages/banerPages.jpg);
         background-repeat: no-repeat;
@@ -626,11 +622,11 @@ main{
     }
 
     .espacioParrafo {
-        padding: 120px 150px;
+        padding: 60px 130px;
         margin: 0px;
     }
 
-    .tamanioLetraQS {
+    .tamanioLetraAD {
         font-size: 22px;
     }
 
@@ -649,9 +645,9 @@ main{
 
     /* footer */
 
-    .listaDoble {
+    /* .listaDoble {
         column-count: 2;
-    }
+    } */
 
     /*pagina vinculacion, comunicacion, administracion y mentoria y formacion*/
     /*Baner comision*/
@@ -709,7 +705,7 @@ main{
     }
     
     .tamanioLetraBanerTitulo{
-        font-size: 22px;
+        font-size: 32px;
     }
     
     .tamanioLetraBanerSubtitulo{
@@ -717,15 +713,15 @@ main{
     }
 
     .margenTituloBaner{
-        margin: 0px 0px 0px 0px;
+        margin: 0px 0px 5px 0px;
     }
     
     .margenSubtituloBaner{
-        margin: 0px 25px 0px 0px;
+        margin: 0px 10px 0px 0px;
     }
 
     .paddingTituloBaner{
-        padding: 0px 25px 0px 0px;
+        padding: 0px 10px 0px 0px;
     }
 
     .imgNoticiaP{
@@ -749,7 +745,7 @@ main{
     }
 
     .tamanioLetraTituloHistoria{
-        font-size: 32px;
+        font-size: 28px;
     }
 
     .tamanioLetraHistoria{
@@ -784,7 +780,7 @@ main{
         
     }
 
-    .tamanioLetraQS {
+    .tamanioLetraAD {
         font-size: 20px;
     }
 
