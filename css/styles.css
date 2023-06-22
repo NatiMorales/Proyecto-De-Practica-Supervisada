@@ -1,33 +1,35 @@
-body{
+body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    
+
 }
 
-main{
+main {
     flex-grow: 1;
 }
 
 /* pagina inicial */
 /*nav*/
 
-.anchoMegaMenu{
-    width: 99.88%!important;
-} 
+.anchoMegaMenu {
+    width: 99.88% !important;
+}
 
 
-.navbar .megamenu{ 
-    padding: 5px; /*1rem*/
+.navbar .megamenu {
+    padding: 5px;
+    /*1rem*/
 }
 
 
 
-.dropdown-menu li a{  
+.dropdown-menu li a {
     color: gray;
-    padding: 5px 10px; /*.5em 1em*/
+    padding: 5px 10px;
+    /*.5em 1em*/
     font-size: 10px;
-    
+
 }
 
 
@@ -35,85 +37,85 @@ main{
     background-color: #ffffff;
 }
 
-.tamanioLogoNav{
+.tamanioLogoNav {
     width: 50px;
     height: 55px;
 }
 
-.evitarDesbordeNav{
+.evitarDesbordeNav {
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow-x: hidden;
-    
+
 }
 
 
 /*baner*/
 
-.tamanioLetraBanerTitulo{
+.tamanioLetraBanerTitulo {
     font-size: 25px;
 }
 
-.tamanioLetraBanerSubtitulo{
+.tamanioLetraBanerSubtitulo {
     font-size: 15px;
 }
 
-.margenTituloBaner{
+.margenTituloBaner {
     margin: 0px 0px 5px 0px;
 }
 
-.margenSubtituloBaner{
+.margenSubtituloBaner {
     margin: 0px 8px 0px 0px;
 }
 
-.paddingTituloBaner{
+.paddingTituloBaner {
     padding: 0px 8px 0px 0px;
 }
 
-.fuenteLetraTitulo{
+.fuenteLetraTitulo {
     font-family: 'Montserrat Alternates', sans-serif;
 }
 
-.fuenteLetraSubtitulo{
+.fuenteLetraSubtitulo {
     font-family: 'Source Code Pro', monospace;
 }
 
-.imgNoticiaP{
+.imgNoticiaP {
     width: 100%;
     height: 150px;
-    object-fit: cover; 
+    object-fit: cover;
 }
 
-.imgNoticiaS{
+.imgNoticiaS {
     width: 100%;
     height: 60px;
-    object-fit: cover; 
+    object-fit: cover;
 }
 
 
 /* historia */
-.imgHistoria{
+.imgHistoria {
     width: 100%;
     margin: 0px 0px 30px 0px;
-    box-shadow: 7px 7px 0px 0px #9e449581 ;
-    
+    box-shadow: 7px 7px 0px 0px #9e449581;
+
 }
 
-.tamanioLetraTituloHistoria{
+.tamanioLetraTituloHistoria {
     font-size: 22px;
 }
 
-.tamanioLetraHistoria{
+.tamanioLetraHistoria {
     font-size: 14px;
 }
 
-.lineaPequenia{
+.lineaPequenia {
     width: 20%;
     border: 2px solid #2b7cb3;
     margin: 4px 0px 10px 0px;
 }
 
-.paddingHistoria{
+.paddingHistoria {
     padding: 0px 0px 0px 0px;
 }
 
@@ -124,12 +126,12 @@ main{
     background-color: #ffffff;
 } */
 
-.border{
+.border {
     --bs-border-color: #2b7cb3;
 }
 
 .letraColorCardMVVO {
-    color: #2b7cb3 ;
+    color: #2b7cb3;
 }
 
 
@@ -141,16 +143,16 @@ main{
     background-color: #9e44958c;
     
 } */
-.fondoCardMVVO{
+.fondoCardMVVO {
     background-color: #2b7db334;
-    
+
 }
 
 .paddingCards {
     padding: 8px;
 }
 
-.paddingCardsMVVO{
+.paddingCardsMVVO {
     padding: 16px 4px;
 }
 
@@ -162,11 +164,11 @@ main{
     padding: 0px 0px 4px 0px;
 }
 
-.margenCardsMVVO{
+.margenCardsMVVO {
     margin: 2px 5px;
 }
 
-.imgCard{
+.imgCard {
     width: 50px;
     height: 50px;
 }
@@ -177,8 +179,8 @@ main{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 0px -0px;
-    object-fit: contain; 
-    
+    object-fit: contain;
+
 }
 
 .espacioParrafo {
@@ -207,37 +209,38 @@ main{
     padding: 5px 10px;
 }
 
-.tamanioCardCarousel{
+.tamanioCardCarousel {
     width: 100%;
     height: 100%;
 }
 
 /* footer */
 
-.tamanioLogoFooter{
+.tamanioLogoFooter {
     width: 120px;
     height: 125px;
 }
 
-.fondoFooter{
+.fondoFooter {
     background-color: #9e4495;
 }
 
-.letraEnlace{
+.letraEnlace {
     color: #ffffff;
     text-decoration: none;
 }
 
-.iconsCarousel .carousel-control-next{
-    justify-content: end!important;
-    
-} 
-.iconsCarousel .carousel-control-prev {
-    justify-content: start!important;
-    
+.iconsCarousel .carousel-control-next {
+    justify-content: end !important;
+
 }
 
-.colorDetalles{
+.iconsCarousel .carousel-control-prev {
+    justify-content: start !important;
+
+}
+
+.colorDetalles {
     color: #2b7db3;
 }
 
@@ -248,31 +251,31 @@ main{
 
 /*pagina vinculacion, comunicacion, administracion y mentoria y formacion*/
 /*Baner comision*/
-.fondoBanerPages{
+.fondoBanerPages {
     background-image: url(../imagenes/banerPages/banerPages.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 0px 0px;
     object-fit: contain;
     width: 100%;
-    height: 200px; 
+    height: 200px;
 }
 
-.fondoColorTransparente{
+.fondoColorTransparente {
     background-color: rgba(158, 68, 149, 0.6);
     width: 100%;
     height: 100%;
 }
 
-.fondoColorSubcomisiones{
+.fondoColorSubcomisiones {
     background-color: rgba(43, 124, 179, 0.3);
 }
 
-.letraSubcomisiones{
+.letraSubcomisiones {
     font-size: 10px;
 }
 
-.imgObjetivosComisiones{
+.imgObjetivosComisiones {
     width: 100%;
     height: 250px;
     object-fit: cover;
@@ -280,105 +283,120 @@ main{
 }
 
 /*pagina fundadoras*/
-.ordenCardsFundadoras{
+.ordenCardsFundadoras {
     display: flex;
     justify-content: center;
 }
 
-.largoCardFundadoras{
+.largoCardFundadoras {
     width: 175px;
     height: 280px;
 }
 
-.imgFundadoras{
-    object-fit:cover;
+.imgFundadoras {
+    object-fit: cover;
     height: 70%;
 }
 
 /*iconos*/
 
-.tamanioIcono{
+.tamanioIcono {
     width: 50px;
     height: 50px;
 }
 
 /*pagina contactos*/
-.tamanioLetraContactos{
+.tamanioLetraContactos {
     font-size: 14px;
 }
 
-.evitarDesbordeMapContactos{
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    overflow-x:scroll;
-}
-
 /*pagina talleres*/
-.letraDescripcionTalleres{
+.letraDescripcionTalleres {
     font-size: 12px;
 }
 
+/* pagina fotos */
 
-@media(max-width:899px){
+.imgFotos {
+    width: 130px;
+    height: 90px;
+    object-fit: cover;
+}
 
-    .navbar.fixed-top .navbar-collapse, .navbar.sticky-top .navbar-collapse{
+@media(max-width:899px) {
+
+    .navbar.fixed-top .navbar-collapse,
+    .navbar.sticky-top .navbar-collapse {
         overflow-y: auto;
         max-height: 90vh;
-        margin-top:10px;
+        margin-top: 10px;
+    }
+
+    /*pagina contactos*/
+
+    .evitarDesborde {
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow-x: scroll;
     }
 }
 
 @media(min-width: 900px) {
 
     /*nav*/
-    .dropdown-menu li a{  
+    .dropdown-menu li a {
         color: gray;
-        padding: 5px 10px; /*.5em 1em*/
+        padding: 5px 10px;
+        /*.5em 1em*/
         font-size: 14px;
-        
+
     }
 
-    .navbar .has-megamenu{
-        position:static!important;
-    }
-    .navbar .megamenu{
-        left:0; right:0; width:100%; margin-top:0;  
+    .navbar .has-megamenu {
+        position: static !important;
     }
 
-    .tamanioLogoNav{
+    .navbar .megamenu {
+        left: 0;
+        right: 0;
+        width: 100%;
+        margin-top: 0;
+    }
+
+    .tamanioLogoNav {
         width: 70px;
         height: 75px;
     }
 
     /*baner*/
 
-    .tamanioLetraBanerTitulo{
+    .tamanioLetraBanerTitulo {
         font-size: 40px;
     }
-    
-    .tamanioLetraBanerSubtitulo{
+
+    .tamanioLetraBanerSubtitulo {
         font-size: 25px;
     }
 
-    .margenTituloBaner{
+    .margenTituloBaner {
         margin: 0px 0px 5px 0px;
     }
-    
-    .margenSubtituloBaner{
+
+    .margenSubtituloBaner {
         margin: 0px 100px 0px 0px;
     }
 
-    .paddingTituloBaner{
+    .paddingTituloBaner {
         padding: 0px 100px 0px 0px;
     }
 
-    .imgNoticiaP{
+    .imgNoticiaP {
         width: 100%;
         height: 350px;
         object-fit: cover;
     }
-    
-    .imgNoticiaS{
+
+    .imgNoticiaS {
         width: 100%;
         height: 170px;
         object-fit: cover;
@@ -386,29 +404,29 @@ main{
 
 
     /*historia*/
-    .imgHistoria{
+    .imgHistoria {
         width: 55%;
         margin: 0px 30px 10px 0px;
-        box-shadow: 13px 13px 0px 0px #9e449581 ;
-        float: left; 
+        box-shadow: 13px 13px 0px 0px #9e449581;
+        float: left;
     }
 
-    .tamanioLetraTituloHistoria{
+    .tamanioLetraTituloHistoria {
         font-size: 30px;
     }
 
-    .tamanioLetraHistoria{
+    .tamanioLetraHistoria {
         font-size: 23px;
     }
-    
-    .lineaPequenia{
+
+    .lineaPequenia {
         width: 9%;
         border: 3px solid #2b7cb3;
         margin: 4px 0px 10px 0px;
-    
+
     }
 
-    .paddingHistoria{
+    .paddingHistoria {
         padding: 0px 24px 0px 0px;
     }
 
@@ -427,7 +445,7 @@ main{
         padding: 0px 8px 8px 8px;
     }
 
-    .margenCardsMVVO{
+    .margenCardsMVVO {
         margin: 0px 8px;
     }
 
@@ -435,19 +453,19 @@ main{
         font-size: 12px;
     }
 
-    .imgCard{
+    .imgCard {
         width: 80px;
         height: 80px;
     }
 
     .fondoBanerAcercaDe {
-        
+
         background-image: url(../imagenes/banerPages/banerPages.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: 0px -250px;
-        object-fit: contain; 
-        
+        object-fit: contain;
+
     }
 
     .espacioParrafo {
@@ -476,7 +494,7 @@ main{
         padding: 16px 8px;
     }
 
-    .tamanioCardCarousel{
+    .tamanioCardCarousel {
         width: 100%;
         height: 100%;
     }
@@ -490,34 +508,50 @@ main{
     /*pagina vinculacion, comunicacion, administracion y mentoria y formacion*/
     /*Baner comision*/
 
-    .fondoBanerPages{
+    .fondoBanerPages {
         background-image: url(../imagenes/banerPages/banerPages.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: 0px -305px;
         object-fit: contain;
         width: 100%;
-        height: 200px; 
+        height: 200px;
     }
 
-    .letraSubcomisiones{
+    .letraSubcomisiones {
         font-size: 20px;
     }
 
     /*pagina fundadoras*/
-    .ordenCardsFundadoras{
+    .ordenCardsFundadoras {
         display: flex;
         justify-content: start;
     }
 
     /*pagina contactos*/
-    .tamanioLetraContactos{
+    .tamanioLetraContactos {
         font-size: 20px;
     }
 
     /*pagina talleres*/
-    .letraDescripcionTalleres{
+    .letraDescripcionTalleres {
         font-size: 15px;
+    }
+
+    /* pagina fotos */
+
+    .imgFotos {
+        width: 190px;
+        height: 110px;
+        object-fit: cover;
+    }
+
+    .zoom {
+        transition: transform .2s;
+    }
+
+    .zoom:hover {
+        transform: scale(1.5);
     }
 
 }
@@ -526,69 +560,70 @@ main{
 
     /*nav*/
 
-    .dropdown-menu li a{  
+    .dropdown-menu li a {
         color: gray;
-        padding: 5px 10px; /*.5em 1em*/
+        padding: 5px 10px;
+        /*.5em 1em*/
         font-size: 14px;
-        
+
     }
 
-    .tamanioLogoNav{
+    .tamanioLogoNav {
         width: 65px;
         height: 70px;
     }
 
     /*baner*/
-    
-    .tamanioLetraBanerTitulo{
+
+    .tamanioLetraBanerTitulo {
         font-size: 40px;
     }
-    
-    .tamanioLetraBanerSubtitulo{
+
+    .tamanioLetraBanerSubtitulo {
         font-size: 20px;
     }
 
-    .margenTituloBaner{
+    .margenTituloBaner {
         margin: 0px 0px 5px 0px;
     }
-    
-    .margenSubtituloBaner{
+
+    .margenSubtituloBaner {
         margin: 0px 30px 0px 0px;
     }
 
-    .paddingTituloBaner{
+    .paddingTituloBaner {
         padding: 0px 30px 0px 0px;
     }
 
-    .imgNoticiaP{
+    .imgNoticiaP {
         width: 100%;
         height: 250px;
-        object-fit: cover; 
+        object-fit: cover;
     }
-    
-    .imgNoticiaS{
+
+    .imgNoticiaS {
         width: 100%;
         height: 120px;
-        object-fit: cover; 
+        object-fit: cover;
     }
 
     /* historia */
-    .imgHistoria{
+    .imgHistoria {
         width: 100%;
         margin: 0px 0px 30px 0px;
-        box-shadow: 13px 13px 0px 0px #9e449581 ;
-        
+        box-shadow: 13px 13px 0px 0px #9e449581;
+
     }
 
-    .tamanioLetraTituloHistoria{
+    .tamanioLetraTituloHistoria {
         font-size: 35px;
     }
 
-    .tamanioLetraHistoria{
+    .tamanioLetraHistoria {
         font-size: 20px;
     }
-    
-    .lineaPequenia{
+
+    .lineaPequenia {
         width: 8%;
         border: 3px solid #2b7cb3;
         margin: 4px 0px 10px 0px;
@@ -604,7 +639,7 @@ main{
         padding: 0px 8px 8px 8px;
     }
 
-    .margenCardsMVVO{
+    .margenCardsMVVO {
         margin: 0px 7px;
     }
 
@@ -617,8 +652,8 @@ main{
         background-repeat: no-repeat;
         background-size: cover;
         background-position: 0px -140px;
-        object-fit: contain; 
-      
+        object-fit: contain;
+
     }
 
     .espacioParrafo {
@@ -651,21 +686,21 @@ main{
 
     /*pagina vinculacion, comunicacion, administracion y mentoria y formacion*/
     /*Baner comision*/
-    .fondoBanerPages{
+    .fondoBanerPages {
         background-image: url(../imagenes/banerPages/banerPages.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: 0px -130px;
         object-fit: contain;
         width: 100%;
-        height: 200px; 
+        height: 200px;
     }
 
-    .letraSubcomisiones{
+    .letraSubcomisiones {
         font-size: 14px;
     }
 
-    .imgObjetivosComisiones{
+    .imgObjetivosComisiones {
         width: 100%;
         height: 180px;
         object-fit: cover;
@@ -673,86 +708,95 @@ main{
     }
 
     /*pagina fundadoras*/
-    .ordenCardsFundadoras{
+    .ordenCardsFundadoras {
         display: flex;
         justify-content: start;
     }
 
     /*pagina contactos*/
-    .tamanioLetraContactos{
+    .tamanioLetraContactos {
         font-size: 18px;
     }
 
     /*pagina talleres*/
-    .letraDescripcionTalleres{
+    .letraDescripcionTalleres {
         font-size: 14px;
+    }
+
+    /* pagina fotos */
+
+    .imgFotos {
+        width: 180px;
+        height: 90px;
+        object-fit: cover;
     }
 }
 
 @media(min-width:400px) and (max-width:600px) {
 
     /*nav*/
-    .dropdown-menu li a{  
+    .dropdown-menu li a {
         color: gray;
-        padding: 5px 10px; /*.5em 1em*/
+        padding: 5px 10px;
+        /*.5em 1em*/
         font-size: 12px;
-        
+
     }
 
-    .tamanioLogoNav{
+    .tamanioLogoNav {
         width: 60px;
         height: 65px;
     }
-    
-    .tamanioLetraBanerTitulo{
+
+    .tamanioLetraBanerTitulo {
         font-size: 32px;
     }
-    
-    .tamanioLetraBanerSubtitulo{
+
+    .tamanioLetraBanerSubtitulo {
         font-size: 15px;
     }
 
-    .margenTituloBaner{
+    .margenTituloBaner {
         margin: 0px 0px 5px 0px;
     }
-    
-    .margenSubtituloBaner{
+
+    .margenSubtituloBaner {
         margin: 0px 10px 0px 0px;
     }
 
-    .paddingTituloBaner{
+    .paddingTituloBaner {
         padding: 0px 10px 0px 0px;
     }
 
-    .imgNoticiaP{
+    .imgNoticiaP {
         width: 100%;
         height: 200px;
-        object-fit: cover; 
+        object-fit: cover;
     }
-    
-    .imgNoticiaS{
+
+    .imgNoticiaS {
         width: 100%;
         height: 100px;
-        object-fit: cover; 
+        object-fit: cover;
     }
 
     /* historia */
-    .imgHistoria{
+    .imgHistoria {
         width: 100%;
         margin: 0px 0px 30px 0px;
-        box-shadow: 13px 13px 0px 0px #9e449581 ;
-        
+        box-shadow: 13px 13px 0px 0px #9e449581;
+
     }
 
-    .tamanioLetraTituloHistoria{
+    .tamanioLetraTituloHistoria {
         font-size: 28px;
     }
 
-    .tamanioLetraHistoria{
+    .tamanioLetraHistoria {
         font-size: 16px;
     }
-    
-    .lineaPequenia{
+
+    .lineaPequenia {
         width: 15%;
         border: 2px solid #2b7cb3;
         margin: 4px 0px 10px 0px;
@@ -761,9 +805,9 @@ main{
     /*acerca de*/
     /*cards*/
 
-    .margenCardsMVVO{
+    .margenCardsMVVO {
         margin: 2px 6px;
-    } 
+    }
 
     .tamanioLetraCard {
         font-size: 10px;
@@ -776,8 +820,8 @@ main{
         background-repeat: no-repeat;
         background-size: cover;
         background-position: 0px -50px;
-        object-fit: contain; 
-        
+        object-fit: contain;
+
     }
 
     .tamanioLetraAD {
@@ -800,21 +844,21 @@ main{
 
     /*pagina vinculacion, comunicacion, administracion y mentoria y formacion*/
     /*Baner comision*/
-    .fondoBanerPages{
+    .fondoBanerPages {
         background-image: url(../imagenes/banerPages/banerPages.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: 0px -20px;
         object-fit: contain;
         width: 100%;
-        height: 200px; 
+        height: 200px;
     }
 
-    .letraSubcomisiones{
+    .letraSubcomisiones {
         font-size: 14px;
     }
 
-    .imgObjetivosComisiones{
+    .imgObjetivosComisiones {
         width: 100%;
         height: 250px;
         object-fit: cover;
@@ -822,14 +866,22 @@ main{
     }
 
     /*pagina fundadoras*/
-    .ordenCardsFundadoras{
+    .ordenCardsFundadoras {
         display: flex;
         justify-content: start;
     }
 
     /*pagina contactos*/
-    .tamanioLetraContactos{
+    .tamanioLetraContactos {
         font-size: 16px;
     }
-    
+
+    /* pagina fotos */
+
+    .imgFotos {
+        width: 180px;
+        height: 90px;
+        object-fit: cover;
+    }
+
 }
