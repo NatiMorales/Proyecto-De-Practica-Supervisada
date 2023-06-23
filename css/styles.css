@@ -248,6 +248,16 @@ main {
     column-count: 2;
 }
 
+.form-control{
+    background-color:transparent;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-radius: 0;
+    color: #ffffff;
+}
+
+
 
 /*pagina vinculacion, comunicacion, administracion y mentoria y formacion*/
 /*Baner comision*/
@@ -281,6 +291,27 @@ main {
     object-fit: cover;
     object-position: 0px 0px;
 }
+
+/*funciones comision administrativa - acordeon*/
+.accordion-button{
+    font-size: 10px;
+    font-weight: 500;
+    padding: 10px 24px;
+}
+
+.accordion-item{
+    font-size: 10px;
+}
+
+.fondoColorSubcomisionesAcordeon {
+    background: rgb(43,125,179);
+    background: linear-gradient(0deg, rgba(43,125,179,0.1) 13%, rgba(255,255,255,1) 96%);
+}
+
+.fondoColorSubcomisionesAcordeon1{
+    background: rgba(43,125,179,0.1);
+}
+
 
 /*pagina fundadoras*/
 .ordenCardsFundadoras {
@@ -522,6 +553,18 @@ main {
         font-size: 20px;
     }
 
+    /*funciones comision administrativa - acordeon*/
+    .accordion-button{
+        font-size: 15px;
+        font-weight:500;
+        padding: 12px 23px;
+    }
+
+    .accordion-item{
+        font-size: 15px;
+        
+    }
+
     /*pagina fundadoras*/
     .ordenCardsFundadoras {
         display: flex;
@@ -707,6 +750,17 @@ main {
         object-position: 0px -40px;
     }
 
+    /*funciones comision administrativa - acordeon*/
+    .accordion-button{
+        font-size: 14px;
+        font-weight:500;
+        padding: 12px 23px;
+    }
+
+    .accordion-item{
+        font-size: 14px;
+    }
+
     /*pagina fundadoras*/
     .ordenCardsFundadoras {
         display: flex;
@@ -863,6 +917,17 @@ main {
         height: 250px;
         object-fit: cover;
         object-position: 0px -40px;
+    }
+
+    /*funciones comision administrativa - acordeon*/
+    .accordion-button{
+        font-size: 12px;
+        font-weight:500;
+        padding: 12px 23px;  
+    }
+
+    .accordion-item{
+        font-size: 12px;
     }
 
     /*pagina fundadoras*/
