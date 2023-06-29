@@ -345,7 +345,7 @@ main {
 }
 
 .largoCardFundadoras {
-    width: 175px;
+    width: 150px;
     height: 280px;
 }
 
@@ -593,6 +593,11 @@ main {
     }
 
     /*pagina fundadoras*/
+    .largoCardFundadoras {
+        width: 169px;
+        height: 280px;
+    }
+
     .ordenCardsFundadoras {
         display: flex;
         justify-content: start;
