@@ -19,15 +19,12 @@ main {
 
 .navbar .megamenu {
     padding: 5px;
-    /*1rem*/
 }
-
 
 
 .dropdown-menu li a {
     color: gray;
     padding: 5px 10px;
-    /*.5em 1em*/
     font-size: 10px;
 
 }
@@ -72,10 +69,6 @@ main {
     padding: 0px 8px 0px 0px;
 }
 
-/* .fuenteLetraTitulo {
-    font-family: 'Montserrat Alternates', sans-serif;
-} */
-
 .fuenteLetraTitulos {
     font-family: 'Source Code Pro', monospace;
 }
@@ -114,8 +107,6 @@ main {
 }
 
 
-
-
 /* historia */
 .imgHistoria {
     width: 100%;
@@ -146,10 +137,6 @@ main {
 /* Acerca de*/
 /*cards */
 
-/* .fondoBlanco {
-    background-color: #ffffff;
-} */
-
 .border {
     --bs-border-color: #2b7cb3;
 }
@@ -163,10 +150,6 @@ main {
     font-size: 8px;
 }
 
-/* .fondoCardMVVO1{
-    background-color: #9e44958c;
-    
-} */
 .fondoCardMVVO {
     background-color: #2b7db334;
 
@@ -403,7 +386,6 @@ main {
     .dropdown-menu li a {
         color: gray;
         padding: 5px 10px;
-        /*.5em 1em*/
         font-size: 14px;
 
     }
@@ -419,9 +401,9 @@ main {
         margin-top: 0;
     }
 
-    .tamanioLogoNav {
-        width: 70px;
-        height: 75px;
+    .tamanioLogoNavTxt {
+        width: 170px;
+        height: 45px;
     }
 
     /*baner*/
@@ -638,14 +620,13 @@ main {
     .dropdown-menu li a {
         color: gray;
         padding: 5px 10px;
-        /*.5em 1em*/
         font-size: 14px;
 
     }
 
-    .tamanioLogoNav {
-        width: 65px;
-        height: 70px;
+    .tamanioLogoNavTxt {
+        width: 170px;
+        height: 45px;
     }
 
     /*baner*/
@@ -753,12 +734,6 @@ main {
         font-size: 16px;
     }
 
-    /* footer */
-
-    /* .listaDoble {
-        column-count: 2;
-    } */
-
     /*pagina vinculacion, comunicacion, administracion y mentoria y formacion*/
     /*Baner comision*/
     .fondoBanerPages {
@@ -826,7 +801,6 @@ main {
     .dropdown-menu li a {
         color: gray;
         padding: 5px 10px;
-        /*.5em 1em*/
         font-size: 12px;
 
     }
@@ -834,6 +808,11 @@ main {
     .tamanioLogoNav {
         width: 60px;
         height: 65px;
+    }
+
+    .tamanioLogoNavTxt {
+        width: 170px;
+        height: 45px;
     }
 
     .tamanioLetraBanerTitulo {
