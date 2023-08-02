@@ -362,6 +362,16 @@ main {
     object-fit: cover;
 }
 
+/* pagina error */
+
+.letraError{
+    font-size: 60px;
+}
+
+.letraColorTransparente{
+    color: rgba(157,120,189, 0.6);
+}
+
 @media(max-width:899px) {
 
     .navbar.fixed-top .navbar-collapse,
