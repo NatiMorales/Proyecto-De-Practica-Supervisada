@@ -369,7 +369,7 @@ main {
 }
 
 .letraColorTransparente{
-    color: rgba(157,120,189, 0.6);
+    color: #9d78bd99;
 }
 
 @media(max-width:899px) {
